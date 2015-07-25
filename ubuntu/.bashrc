@@ -158,7 +158,7 @@ function get_git_changes {
     if [ $UNTRACK -ne "0" ];then U="\033[36mnew=${UNTRACK}\033[0m";fi
     if [ $MODIFIED -ne "0" ];then M="\033[34mmodified=${MODIFIED}\033[0m";fi
     if [ $INDEX -ne "0" ];then I="\033[33mstaged=${INDEX}\033[0m";fi
-    
+
     UP_ARROW='\xE2\x86\x91'
     DOWN_ARROW='\xE2\x86\x93'
     REMOTE=`git remote 2>/dev/null | head -1`
@@ -167,23 +167,23 @@ function get_git_changes {
     RET="\033[0m"
 
     if [ $AHEAD -ne "0" ] ; then
-            RET="$RET\033[32m$AHEAD${UP_ARROW}\033[0m";
+            RET="$RET\033[38;5;14m$AHEAD${UP_ARROW}\033[0m";
     fi
     if [ $AHEAD -ne "0" ] && [ $BEHIND -ne "0" ] ; then
-            RET="$RET \033[35m$BEHIND${DOWN_ARROW}\033[0m";
-        else 
+            RET="$RET \033[38;5;129m$BEHIND${DOWN_ARROW}\033[0m";
+        else
          if [ $BEHIND -ne "0" ];then
-            RET="\033[35m$BEHIND${DOWN_ARROW}\033[0m"
+            RET="\033[38;5;129m$BEHIND${DOWN_ARROW}\033[0m"
          fi;
     fi
-   
+
 
     if [ -n "$BRANCH" ];then
         if [ $AHEAD -ne "0" ] || [ $BEHIND -ne "0" ] ; then
             echo -ne "\n\033[31mremote ($REMOTE/$BRANCH)\033[0m : $RET"
         fi
         if [ $UNTRACK -ne "0" ] || [ $MODIFIED -ne "0" ] || [ $INDEX -ne "0" ];then
-            echo -ne "\n\033[95mgit status ( "
+            echo -ne "\n\033[38;5;129mgit status ( "
             if [ $INDEX -ne "0" ];then
                 echo -ne "$I "
             fi
@@ -193,7 +193,7 @@ function get_git_changes {
             if [ $UNTRACK -ne "0" ];then
                 echo -ne "$U "
             fi
-            echo -ne "\033[95m)\n"
+            echo -ne "\033[38;5;129m)\n"
         fi
     fi
 }

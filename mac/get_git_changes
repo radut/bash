@@ -19,13 +19,13 @@
     RET="\033[0m"
 
     if [ $AHEAD -ne "0" ] ; then
-            RET="$RET\033[32m$AHEAD${UP_ARROW}\033[0m";
+            RET="$RET\033[38;5;14m$AHEAD${UP_ARROW}\033[0m";
     fi
     if [ $AHEAD -ne "0" ] && [ $BEHIND -ne "0" ] ; then
-            RET="$RET \033[35m$BEHIND${DOWN_ARROW}\033[0m";
+            RET="$RET \033[38;5;129m$BEHIND${DOWN_ARROW}\033[0m";
         else 
          if [ $BEHIND -ne "0" ];then
-            RET="\033[35m$BEHIND${DOWN_ARROW}\033[0m"
+            RET="\033[38;5;129m$BEHIND${DOWN_ARROW}\033[0m"
          fi;
     fi
    
@@ -35,7 +35,7 @@
             echo -ne "\n\033[31mremote ($REMOTE/$BRANCH)\033[0m : $RET"
         fi
         if [ $UNTRACK -ne "0" ] || [ $MODIFIED -ne "0" ] || [ $INDEX -ne "0" ];then
-            echo -ne "\n\033[95mgit status ( "
+            echo -ne "\n\033[38;5;129mgit status ( "
             if [ $INDEX -ne "0" ];then
                 echo -ne "$I "
             fi
@@ -45,7 +45,7 @@
             if [ $UNTRACK -ne "0" ];then
                 echo -ne "$U "
             fi
-            echo -ne "\033[95m)\n"
+            echo -ne "\033[38;5;129m)\n"
         fi
     fi
 
