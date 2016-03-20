@@ -143,8 +143,7 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
 
 export EDITOR=vim
-export LESS="-X"
-
+export LESS=eFRX
 
 
 function get_git_changes {
