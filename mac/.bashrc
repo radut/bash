@@ -37,5 +37,5 @@ export JAVA_OPTS="-XX:MaxPermSize=512m -Xms256m -Xmx1024m -Xss28m -Xmn24m"
 
 
 export EDITOR=vim
-
+export LESS="-X"
 
