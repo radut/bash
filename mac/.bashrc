@@ -1,4 +1,5 @@
 
+#echo "load .bashrc " // dont echo in this file, scp won't work anymore
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
@@ -18,7 +19,7 @@ alias l='ls -CF'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+#alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -30,11 +31,23 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 
-
+alias grep="grep --color"
 
 
 export JAVA_OPTS="-XX:MaxPermSize=512m -Xms256m -Xmx1024m -Xss28m -Xmn24m"
 
 
 export EDITOR=vim
+
 export LESS=eFRX
+
+
+export WMSJAVA_HOME="/Library/WowzaStreamingEngine-4.2.0/java"
+
+export PATH="$PATH:"/Applications/microchip/xc16/v1.26/bin""
+
+export PATH="$PATH:"/Applications/microchip/xc32/v1.40/bin""
+
+export PATH="$PATH:/Applications/microchip/xc8/v1.36/bin"
+
+export PATH=$PATH:/usr/share/pk2
