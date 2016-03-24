@@ -212,6 +212,7 @@ PS1="$(if [[ ${EUID} == 0 ]]; then echo '\[\033[01;31m\]\n\h\[\033[01;34m\] \w';
 
 export PS1
 
+export LESS=eFRX
 
 
 
