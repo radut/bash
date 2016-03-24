@@ -106,7 +106,7 @@ fi
 
 
 
-export PATH=$PATH:/home/tr/apache-maven-3.2.5/bin
+#export PATH=$PATH:/home/tr/apache-maven-3.2.5/bin
 export PATH=$PATH:/home/tr/apache-maven/bin
 export ANDROID_HOME=/home/tr/android-sdk
 export PATH=$PATH:/home/tr/genymotion:/home/tr/android-sdk/platform-tools
@@ -143,7 +143,7 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
 
 export EDITOR=vim
-export LESS=eFRX
+
 
 
 function get_git_changes {
@@ -212,8 +212,15 @@ PS1="$(if [[ ${EUID} == 0 ]]; then echo '\[\033[01;31m\]\n\h\[\033[01;34m\] \w';
 
 export PS1
 
-export LESS=eFRX
 
 
 
 echo ".bash.rc done"
+[[ -s "/home/tr/.gvm/scripts/gvm" ]] && source "/home/tr/.gvm/scripts/gvm"
+
+#export PATH=$PATH:/home/tr/.gvm/gos/go1.5/bin
+#export GOPATH=/home/tr/.gvm/gos/go1.5
+
+export LESS=eFRX
+
+export PATH="$PATH:"/media/radu.toader/Storage/opt/microchip/xc8/v1.36/bin""
