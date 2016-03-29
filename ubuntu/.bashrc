@@ -126,7 +126,7 @@ export PATH=$PATH:/usr/hitech/picc-18/9.80/bin
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
-. /etc/bash_completion.d/docker.io
+. /etc/bash_completion.d/docker
 . /etc/bash_completion.d/git-completion.bash
 . /etc/bash_completion.d/mvn 
 
