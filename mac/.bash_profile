@@ -1,3 +1,4 @@
+echo "load .bash_profile"
 #export ANDROID_HOME=/Applications/android-sdk
 #export PATH=$PATH:/Users/tr/maven/bin:/Applications/android-sdk/platform-tools/
 
@@ -20,3 +21,29 @@ export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 
 source .bashrc
 
+
+export WMSJAVA_HOME="/Library/WowzaStreamingEngine-4.2.0/java"
+
+##
+# Your previous /Users/tr/.bash_profile file was backed up as /Users/tr/.bash_profile.macports-saved_2015-11-08_at_16:14:26
+##
+
+# MacPorts Installer addition on 2015-11-08_at_16:14:26: adding an appropriate PATH variable for use with MacPorts.
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+#source /usr/local/git/contrib/completion/git-completion.bash
+
+
+
+source .git-completion.bash
+
+export PATH="$PATH:"/Applications/microchip/xc16/v1.26/bin""
+
+export PATH="$PATH:"/Applications/microchip/xc32/v1.40/bin""
+
+export PATH="$PATH:"/Applications/microchip/xc8/v1.36/bin""
+
+export PATH=$PATH:"/Applications/microchip/xc8/v1.32/bin"
+
+export PATH="$PATH:/Applications/microchip/xc8/v1.36/bin"
