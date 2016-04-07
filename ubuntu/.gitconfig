@@ -1,16 +1,17 @@
 [user]
 	name = Radu Toader
-	email = tr@everymatrix.com
+	email = radu.toader@everymatrix.com
 [credential]
 	helper = store
 [alias]
+    update  = "!git fetch --all; git fetch --tags ; git up"
+    pushup = "!git up;git push" 
 	cm = commit
 	cp = cherry-pick 
 	st = status
    	ci = commit
    	co = checkout
     br = branch
-    update = "!git fetch --all; git fetch --tags; git up"
    	unstage = reset HEAD --
 	last = log -1 HEAD
 	slog = log --oneline --abbrev-commit --graph --decorate

@@ -1,10 +1,11 @@
 [user]
 	name = Radu Toader
-	email = tr@everymatrix.com
+	email = radu.m.toader@gmail.com
 [credential]
 	helper = store
 [alias]
-	update  = "!git fetch --all && git fetch --tags && git stash save "update-fetch-git" && git rebase && if [ $(git stash list|grep update-fetch-git|wc -l) -gt "0" ];then echo 'you have stashed files' ;git stash pop;fi;git status"
+    update  = "!git fetch --all; git fetch --tags ; git up"
+    pushup = "!git up;git push"
 	cm = commit
 	cp = cherry-pick 
 	st = status
