@@ -4,7 +4,7 @@
 [credential]
 	helper = store
 [alias]
-    update  = "!git fetch --all; git fetch --tags ; git up"
+    update  = "!git fetch --all;git fetch -p; git fetch --tags ; git up"
     pushup = "!git up;git push" 
 	cm = commit
 	cp = cherry-pick 
