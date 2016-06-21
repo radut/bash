@@ -60,6 +60,11 @@
 [branch]
 	autosetuprebase = always
 [core]
-	excludesfile = /home/tr/.gitignore
+    excludesfile = /home/tr/.gitignore
+    autocrlf = input
 [mergetool "kdiff3"]
-	path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
+    path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
+[git-up "fetch"]
+    prune = true
+    all = true
+
