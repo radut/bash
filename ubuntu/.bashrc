@@ -213,14 +213,27 @@ PS1="$(if [[ ${EUID} == 0 ]]; then echo '\[\033[01;31m\]\n\h\[\033[01;34m\] \w';
 export PS1
 
 
-
-
-echo ".bash.rc done"
 [[ -s "/home/tr/.gvm/scripts/gvm" ]] && source "/home/tr/.gvm/scripts/gvm"
 
 #export PATH=$PATH:/home/tr/.gvm/gos/go1.5/bin
 #export GOPATH=/home/tr/.gvm/gos/go1.5
 
-export LESS=eFRX
 
 export PATH="$PATH:"/media/radu.toader/Storage/opt/microchip/xc8/v1.36/bin""
+
+
+
+export ANDROID_HOME=/home/tr/android-sdk/
+export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_HOME/build-tools/21.1.2
+
+
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+export LESS="-eiFRSX"
+
+echo ".bash.rc done"
