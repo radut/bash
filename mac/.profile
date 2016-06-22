@@ -34,8 +34,6 @@ export PS1
 
 
 
-export WMSJAVA_HOME="/Library/WowzaStreamingEngine-4.2.0/java"
-
 #eval "$(docker-machine env default)"
 
 #bash /Applications/Docker/Docker\ Quickstart\ Terminal.app/Contents/Resources/Scripts/start.sh
@@ -100,3 +98,4 @@ export PATH="$PATH:"/Applications/microchip/xc16/v1.26/bin""
 export PATH="$PATH:"/Applications/microchip/xc32/v1.40/bin""
 
 export PATH="$PATH:/Applications/microchip/xc8/v1.36/bin"
+source docker.io

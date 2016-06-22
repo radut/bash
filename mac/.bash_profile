@@ -21,9 +21,6 @@ export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 
 source .bashrc
 
-
-export WMSJAVA_HOME="/Library/WowzaStreamingEngine-4.2.0/java"
-
 ##
 # Your previous /Users/tr/.bash_profile file was backed up as /Users/tr/.bash_profile.macports-saved_2015-11-08_at_16:14:26
 ##
@@ -47,3 +44,6 @@ export PATH="$PATH:"/Applications/microchip/xc8/v1.36/bin""
 export PATH=$PATH:"/Applications/microchip/xc8/v1.32/bin"
 
 export PATH="$PATH:/Applications/microchip/xc8/v1.36/bin"
+
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+

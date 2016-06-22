@@ -41,8 +41,8 @@ export EDITOR=vim
 
 export LESS=eFRX
 
-
-export WMSJAVA_HOME="/Library/WowzaStreamingEngine-4.2.0/java"
+export ANDROID_HOME="/Applications/android-sdk/"
+export PATH="$PATH:$ANDROID_HOME/platform-tools/"
 
 export PATH="$PATH:"/Applications/microchip/xc16/v1.26/bin""
 
