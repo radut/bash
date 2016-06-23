@@ -236,4 +236,9 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 export LESS="-eiFRSX"
 
-echo ".bash.rc done"
+
+eval "$(_PLATFORMIO_COMPLETE=source platformio)"
+#eval "$(_PLATFORMIO_COMPLETE=source pio)"
+
+
+echo ".bashrc done"
