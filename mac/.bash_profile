@@ -45,5 +45,15 @@ export PATH=$PATH:"/Applications/microchip/xc8/v1.32/bin"
 
 export PATH="$PATH:/Applications/microchip/xc8/v1.36/bin"
 
-test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+#test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+
+
+
+##
+# Your previous /Users/radut/.bash_profile file was backed up as /Users/radut/.bash_profile.macports-saved_2016-09-22_at_01:18:48
+##
+
+# MacPorts Installer addition on 2016-09-22_at_01:18:48: adding an appropriate PATH variable for use with MacPorts.
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+# Finished adapting your PATH environment variable for use with MacPorts.
 
