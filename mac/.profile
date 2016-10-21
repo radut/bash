@@ -71,17 +71,17 @@ function startDockerMachine(){
 }
 
 
-VM_STATUS=$($DOCKER_MACHINE status $VM 2>&1)
-if [ "$VM_STATUS" != "Running" ]; then
-    echo "Docker machine not running"
+#VM_STATUS=$($DOCKER_MACHINE status $VM 2>&1)
+#if [ "$VM_STATUS" != "Running" ]; then
+#    echo "Docker machine not running"
     #$DOCKER_MACHINE start $VM
     #yes | $DOCKER_MACHINE regenerate-certs $VM
-else
-eval $($DOCKER_MACHINE env --shell=bash $VM)
-echo 
-echo -e "${BLUE}docker${NC} is configured to use the ${GREEN}$VM${NC} machine with IP ${GREEN}$($DOCKER_MACHINE ip $VM)${NC}"
-echo
-fi
+#else
+#eval $($DOCKER_MACHINE env --shell=bash $VM)
+#echo 
+#echo -e "${BLUE}docker${NC} is configured to use the ${GREEN}$VM${NC} machine with IP ${GREEN}$($DOCKER_MACHINE ip $VM)${NC}"
+#echo
+#fi
 
 export LESS="-X"
 export CLICOLOR=1
