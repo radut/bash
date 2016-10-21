@@ -242,3 +242,14 @@ eval "$(_PLATFORMIO_COMPLETE=source platformio)"
 
 
 echo ".bashrc done"
+
+# The next line updates PATH for the Google Cloud SDK.
+source '/home/tr/Downloads/google-cloud-sdk/path.bash.inc'
+
+# The next line enables shell command completion for gcloud.
+source '/home/tr/Downloads/google-cloud-sdk/completion.bash.inc'
+
+#http://stackoverflow.com/questions/9457233/unlimited-bash-history
+HISTSIZE=5000
+HISTFILESIZE=5000
+
