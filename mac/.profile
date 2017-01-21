@@ -15,6 +15,7 @@ export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 export PATH=$PATH:$JAVA_HOME/bin
 
 export PATH=$PATH:/Applications/microchip/xc8/v1.32/bin
+export PATH=$PATH:/opt/local/Library/Frameworks/Python.framework/Versions/2.7/bin
 
 alias avrora='java -jar /usr/local/avrora/avrora.jar'
 
