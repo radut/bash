@@ -52,6 +52,10 @@ export PATH="$PATH:/Applications/microchip/xc8/v1.36/bin"
 
 export PATH=$PATH:/usr/share/pk2
 
+alias ij="open -a /Applications/IntelliJ\ IDEA.app/"
+alias intelli=ij 
+alias code="open -a /Applications/Visual\ Studio\ Code.app/"
+
 #http://stackoverflow.com/questions/9457233/unlimited-bash-history
 HISTSIZE=5000
 HISTFILESIZE=5000
