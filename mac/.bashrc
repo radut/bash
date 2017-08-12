@@ -59,3 +59,6 @@ alias code="open -a /Applications/Visual\ Studio\ Code.app/"
 #http://stackoverflow.com/questions/9457233/unlimited-bash-history
 HISTSIZE=5000
 HISTFILESIZE=5000
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
