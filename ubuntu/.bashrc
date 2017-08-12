@@ -253,3 +253,4 @@ source '/home/tr/Downloads/google-cloud-sdk/completion.bash.inc'
 HISTSIZE=5000
 HISTFILESIZE=5000
 
+function gi() { curl -L -s https://www.gitignore.io/api/\$@ ;}
