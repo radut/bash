@@ -63,8 +63,10 @@
 [branch]
 	autosetuprebase = always
 [core]
-	excludesfile = /home/tr/.gitignore
+	excludesfile = ~/.gitignore
 	autocrlf = input
 [git-up "fetch"]
 	prune = true
 	all = true
+[status]
+	submoduleSummary = true
