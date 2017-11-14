@@ -1,0 +1,772 @@
+The following ports are currently installed:
+  a52dec @0.7.4_0 (active)
+  akonadi @1.13.1.20141210_2+mariadb55 (active)
+  ansible-lint @3.4.13_0 (active)
+  asciidoc @8.6.9_3 (active)
+  aspell @0.60.6.1_1 (active)
+  aspell-dict-en @7.1_0
+  aspell-dict-en @2017.01.22_0
+  aspell-dict-en @2017.08.24_0 (active)
+  at-spi2-atk @2.22.0_0
+  at-spi2-atk @2.24.1_0
+  at-spi2-atk @2.26.0_0 (active)
+  at-spi2-core @2.22.0_0
+  at-spi2-core @2.24.1_0
+  at-spi2-core @2.26.0_0 (active)
+  atk @2.22.0_0
+  atk @2.24.0_0
+  atk @2.26.0_0 (active)
+  attica @0.4.2_2 (active)
+  autoconf @2.69_5 (active)
+  autoconf-archive @2017.03.21_0 (active)
+  automake @1.15_1
+  automake @1.15.1_0 (active)
+  automoc @0.9.88_9 (active)
+  avahi @0.6.31_13+gtk+gtk3+x11
+  avahi @0.6.32_0+gtk+gtk3+x11 (active)
+  avidemux @2.6.10_1+aac+gettext+lame+sqlite+twolame+x264
+  avidemux @2.6.20_0+aac+gettext+lame+sqlite+twolame+x264+x265 (active)
+  BGHUDAppKit @0.7_1 (active)
+  bison @3.0.4_1
+  bison @3.0.4_2
+  bison @3.0.4_3 (active)
+  bison-runtime @3.0.4_0
+  bison-runtime @3.0.4_1
+  bison-runtime @3.0.4_2 (active)
+  boost @1.59.0_2+no_single+no_static+python27
+  boost @1.59.0_3+no_single+no_static+python27 (active)
+  botan @1.10.9_1
+  botan @1.10.16_0 (active)
+  bzip2 @1.0.6_0 (active)
+  cairo @1.14.6_0+quartz+x11
+  cairo @1.14.8_0+quartz+x11
+  cairo @1.14.10_0+quartz+x11 (active)
+  cctools @895_4+llvm39 (active)
+  cdrtools @3.00_1
+  cdrtools @3.01_0 (active)
+  clucene @2.3.3.4_1 (active)
+  cmake @3.6.2_0
+  cmake @3.7.2_0
+  cmake @3.8.0_0
+  cmake @3.9.0_0
+  cmake @3.9.1_0
+  cmake @3.9.3_0 (active)
+  convertlit @1.8_0
+  convertlit @1.8_1 (active)
+  coreutils @8.25_0
+  coreutils @8.26_0
+  coreutils @8.27_0
+  coreutils @8.27_1
+  coreutils @8.28_0 (active)
+  curl @7.55.1_0+ssl (active)
+  curl-ca-bundle @7.50.3_0
+  curl-ca-bundle @7.52.1_0
+  curl-ca-bundle @7.52.1_1
+  curl-ca-bundle @7.52.1_2
+  curl-ca-bundle @7.53.1_1
+  curl-ca-bundle @7.54.1_1
+  curl-ca-bundle @7.55.1_0 (active)
+  cyrus-sasl2 @2.1.26_6+kerberos (active)
+  cython_select @0.1_0 (active)
+  db46 @4.6.21_10 (active)
+  db48 @4.8.30_4 (active)
+  dbus @1.10.12_0
+  dbus @1.10.20_0 (active)
+  dbus-glib @0.108_0 (active)
+  dbus-python27 @1.2.0_2 (active)
+  dbusmenu-qt @0.9.2_2 (active)
+  desktop-file-utils @0.23_0 (active)
+  djvulibre @3.5.27_0 (active)
+  docbook-xml @5.0_3 (active)
+  docbook-xml-4.1.2 @5.0_1 (active)
+  docbook-xml-4.2 @5.0_1 (active)
+  docbook-xml-4.3 @5.0_1 (active)
+  docbook-xml-4.4 @5.0_1 (active)
+  docbook-xml-4.5 @5.0_1 (active)
+  docbook-xml-5.0 @5.0_1 (active)
+  docbook-xsl @1.79.1_0 (active)
+  docbook-xsl-ns @1.76.1_1 (active)
+  doxygen @1.8.13_2 (active)
+  dvdauthor @0.7.1_6
+  dvdauthor @0.7.1_7
+  dvdauthor @0.7.1_8 (active)
+  ebook-tools @0.2.2_1 (active)
+  enchant @1.6.0_4+applespell (active)
+  exiv2 @0.25_0
+  exiv2 @0.26_1 (active)
+  expat @2.2.0_0
+  expat @2.2.2_0
+  expat @2.2.4_0 (active)
+  faac @1.28_3
+  faac @1.29_0 (active)
+  faad2 @2.7_0 (active)
+  ffmpeg @3.1.3_0+gpl2+x11
+  ffmpeg @3.2.2_3+gpl2+x11
+  ffmpeg @3.2.4_1+gpl2+x11
+  ffmpeg @3.3.2_1+gpl2+x11
+  ffmpeg @3.3.3_1+gpl2+x11
+  ffmpeg @3.3.4_0+gpl2+x11 (active)
+  ffmpeg-VLC @2.8.6_1 (active)
+  fftw-3 @3.3.5_0 (active)
+  figlet @2.2.5_0 (active)
+  flac @1.3.1_2
+  flac @1.3.2_0 (active)
+  flex @2.6.0_0
+  flex @2.6.1_0
+  flex @2.6.3_2
+  flex @2.6.4_0 (active)
+  fluidsynth @1.1.6_4
+  fluidsynth @1.1.6_5
+  fluidsynth @1.1.6_6 (active)
+  fontconfig @2.12.1_1
+  fontconfig @2.12.4_0
+  fontconfig @2.12.6_0 (active)
+  fop @1.1_0 (active)
+  freeglut @3.0.0_0 (active)
+  freetype @2.7_0
+  freetype @2.7.1_0
+  freetype @2.8_0 (active)
+  frei0r-plugins @1.4_1 (active)
+  fribidi @0.19.7_0 (active)
+  gawk @4.1.4_0
+  gawk @4.1.4_3 (active)
+  gdbm @1.12_0
+  gdbm @1.13_1
+  gdbm @1.13_3 (active)
+  gdk-pixbuf2 @2.36.4_0+x11
+  gdk-pixbuf2 @2.36.5_0+x11
+  gdk-pixbuf2 @2.36.7_0+x11
+  gdk-pixbuf2 @2.36.10_1+x11 (active)
+  geany @1.26_0 (active)
+  gettext @0.19.8.1_0 (active)
+  ghostscript @9.19_0+x11
+  ghostscript @9.21_2+x11 (active)
+  giflib @4.2.3_0+x11 (active)
+  glib2 @2.48.2_0
+  glib2 @2.50.2_0
+  glib2 @2.50.3_0
+  glib2 @2.52.3_0+x11
+  glib2 @2.54.0_0+x11 (active)
+  gmake @4.1_0
+  gmake @4.2.1_0 (active)
+  gmp @6.1.1_0
+  gmp @6.1.2_0
+  gmp @6.1.2_1 (active)
+  gnome-common @3.18.0_0 (active)
+  gnupg2 @2.0.30_0
+  gnupg2 @2.0.30_1
+  gnupg2 @2.0.30_2 (active)
+  gnutls @3.4.15_0
+  gnutls @3.5.8_0
+  gnutls @3.5.9_0
+  gnutls @3.5.11_0
+  gnutls @3.5.14_0
+  gnutls @3.5.15_0 (active)
+  gobject-introspection @1.50.0_0
+  gobject-introspection @1.52.1_0
+  gobject-introspection @1.54.0_0 (active)
+  gperf @3.0.4_2
+  gperf @3.1_0 (active)
+  gpg-agent @2.0.30_0+pinentry_mac
+  gpg-agent @2.0.30_1+pinentry_mac (active)
+  gpgme @1.8.0_1
+  gpgme @1.9.0_0
+  gpgme @1.9.0_1 (active)
+  gpsd @3.14_4 (active)
+  grantlee @0.3.0_2 (active)
+  graphite2 @1.3.8_0
+  graphite2 @1.3.9_0 (active)
+  gtk2 @2.24.31_0+x11 (active)
+  gtk3 @3.22.7_0+x11
+  gtk3 @3.22.11_0+x11
+  gtk3 @3.22.17_0+x11
+  gtk3 @3.22.21_0+x11 (active)
+  harfbuzz @1.3.1_0
+  harfbuzz @1.4.1_0
+  harfbuzz @1.4.2_0
+  harfbuzz @1.4.5_0
+  harfbuzz @1.4.7_0
+  harfbuzz @1.4.8_0
+  harfbuzz @1.5.1_0 (active)
+  hicolor-icon-theme @0.15_0
+  hicolor-icon-theme @0.16_0
+  hicolor-icon-theme @0.17_0 (active)
+  htop @2.0.2_0 (active)
+  icu @55.1_0
+  icu @58.2_0
+  icu @58.2_1 (active)
+  ilmbase @2.2.0_0 (active)
+  ImageMagick @6.9.7-4_0+x11
+  ImageMagick @6.9.7-6_0+x11
+  ImageMagick @6.9.7-7_0+x11
+  ImageMagick @6.9.8-3_0+x11
+  ImageMagick @6.9.8-10_0+x11
+  ImageMagick @6.9.9-5_0+x11
+  ImageMagick @6.9.9-11_1+x11 (active)
+  intltool @0.51.0_2
+  intltool @0.51.0_3 (active)
+  isl @0.14.1_0
+  isl @0.18_0 (active)
+  jasper @2.0.10_0
+  jasper @2.0.12_0
+  jasper @2.0.14_0 (active)
+  jbig2dec @0.11_2
+  jbig2dec @0.13_0 (active)
+  jbigkit @2.1_0 (active)
+  jpeg @9a_1
+  jpeg @9b_0 (active)
+  jq @1.5_1 (active)
+  kactivities @4.13.3_3 (active)
+  kde4-runtime @4.14.4.20150225_9+samba
+  kde4-runtime @4.14.4.20150225_10+samba
+  kde4-runtime @4.14.4.20150225_11+samba (active)
+  kdelibs4 @4.14.3_8 (active)
+  kdenlive @0.9.10_3 (active)
+  kdepimlibs4 @4.14.3_9
+  kdepimlibs4 @4.14.3_10 (active)
+  kerberos5 @1.15_0
+  kerberos5 @1.15.1_0
+  kerberos5 @1.15.2_0 (active)
+  kfilemetadata @4.14.3_6
+  kfilemetadata @4.14.3_7 (active)
+  lame @3.99.5_1 (active)
+  lcms2 @2.8_0 (active)
+  ld64 @3_0 (active)
+  ld64-latest @274.1_1+llvm39
+  ld64-latest @274.2_1+llvm39 (active)
+  libarchive @3.2.1_0
+  libarchive @3.2.2_0
+  libarchive @3.2.2_1
+  libarchive @3.3.1_1
+  libarchive @3.3.2_0
+  libarchive @3.3.2_1 (active)
+  libass @0.13.2_0
+  libass @0.13.6_0
+  libass @0.13.7_0 (active)
+  libassuan @2.4.3_0
+  libassuan @2.4.3_1
+  libassuan @2.4.3_2 (active)
+  libbluray @0.9.2_0
+  libbluray @1.0.0_0 (active)
+  libcaca @0.99.beta19_6 (active)
+  libcddb @1.3.2_1 (active)
+  libcdio @0.94_0 (active)
+  libcomerr @1.43.3_0
+  libcomerr @1.43.4_0
+  libcomerr @1.43.5_0
+  libcomerr @1.43.6_0 (active)
+  libcxx @3.9.0_0+universal
+  libcxx @3.9.1_0+universal (active)
+  libdaemon @0.14_0
+  libdaemon @0.14_1 (active)
+  libdc1394 @2.2.4_0 (active)
+  libdca @0.0.5_0 (active)
+  libdmtx @0.7.4_0 (active)
+  libdvbpsi @1.3.0_0
+  libdvbpsi @1.3.1_0 (active)
+  libdvdcss @1.4.0_0 (active)
+  libdvdnav @5.0.3_0 (active)
+  libdvdread @5.0.3_0 (active)
+  libebml @1.3.4_0
+  libebml @1.3.5_0 (active)
+  libedit @20160618-3.1_1
+  libedit @20160903-3.1_1
+  libedit @20170329-3.1_0
+  libedit @20170329-3.1_1 (active)
+  libepoxy @1.3.1_3+python34
+  libepoxy @1.4.1_0+python34
+  libepoxy @1.4.3_1+python36 (active)
+  libexif @0.6.21_0 (active)
+  libffi @3.2.1_0 (active)
+  libgcc @6.3.0_0
+  libgcc @6.4.0_0
+  libgcc @7.2.0_0 (active)
+  libgcrypt @1.7.6_0
+  libgcrypt @1.7.6_1
+  libgcrypt @1.8.0_0
+  libgcrypt @1.8.1_1 (active)
+  libglade2 @2.6.4_8 (active)
+  libGLU @9.0.0_0 (active)
+  libgpg-error @1.26_0
+  libgpg-error @1.27_0
+  libgpg-error @1.27_1 (active)
+  libical @1.0.1_0
+  libical @2.0.0_0 (active)
+  libiconv @1.14_0
+  libiconv @1.15_0 (active)
+  libid3tag @0.15.1b_2 (active)
+  libidn @1.33_0 (active)
+  libiodbc @3.52.12_0+x11 (active)
+  libksba @1.3.5_0
+  libksba @1.3.5_1 (active)
+  libmad @0.15.1b_3 (active)
+  libmagic @5.29_0
+  libmagic @5.30_0
+  libmagic @5.31_0
+  libmagic @5.32_0 (active)
+  libmatroska @1.4.5_0
+  libmatroska @1.4.7_0 (active)
+  libmng @2.0.3_0 (active)
+  libmodplug @0.8.8.5_0
+  libmodplug @0.8.9.0_0 (active)
+  libmpc @1.0.3_0 (active)
+  libmpcdec @1.2.6_0 (active)
+  libmpeg2 @0.5.1_3+sdl+x11 (active)
+  libmtp @1.1.12_0
+  libmtp @1.1.13_0 (active)
+  libogg @1.3.2_1 (active)
+  libopus @1.1.2_0
+  libopus @1.1.3_0
+  libopus @1.1.4_0
+  libopus @1.2.1_0 (active)
+  libpaper @1.1.24.4_0
+  libpaper @1.1.24.5_0 (active)
+  libpixman @0.34.0_0 (active)
+  libpng @1.6.25_0
+  libpng @1.6.28_0
+  libpng @1.6.29_0
+  libpng @1.6.30_0
+  libpng @1.6.32_0 (active)
+  libproxy @0.4.14_0+python27
+  libproxy @0.4.15_0+python27 (active)
+  libraw @0.18.5_0 (active)
+  libsamplerate @0.1.9_0 (active)
+  libsdl @1.2.15_3+x11 (active)
+  libsdl2 @2.0.5_1+x11 (active)
+  libsdl_image @1.2.12_5 (active)
+  libsndfile @1.0.26_0
+  libsndfile @1.0.27_0
+  libsndfile @1.0.28_0 (active)
+  libssh @0.7.3_1+kerberos5
+  libssh @0.7.4_0+kerberos5
+  libssh @0.7.5_0+kerberos5 (active)
+  libssh2 @1.7.0_0
+  libssh2 @1.8.0_0 (active)
+  libtasn1 @4.9_0
+  libtasn1 @4.10_0
+  libtasn1 @4.12_0 (active)
+  libtheora @1.1.1_2 (active)
+  libtommath @0.42.0_0
+  libtommath @1.0_0 (active)
+  libtool @2.4.6_2
+  libtool @2.4.6_3 (active)
+  libunistring @0.9.7_0 (active)
+  libupnp @1.6.21_0
+  libupnp @1.6.22_0 (active)
+  libusb @1.0.21_0 (active)
+  libusb-compat @0.1.5_0 (active)
+  libuv @1.10.1_0
+  libuv @1.10.2_0
+  libuv @1.11.0_0
+  libuv @1.13.1_0
+  libuv @1.14.0_0
+  libuv @1.14.1_0 (active)
+  libvorbis @1.3.5_0 (active)
+  libvpx @1.4.0_0
+  libvpx @1.6.1_0
+  libvpx @1.6.1_1 (active)
+  libxml2 @2.9.4_0
+  libxml2 @2.9.4_1
+  libxml2 @2.9.5_0 (active)
+  libxslt @1.1.29_1 (active)
+  libyaml @0.1.7_0 (active)
+  libzip @1.1.2_0 (active)
+  live555 @2016.11.28_0
+  live555 @2017.06.04_0 (active)
+  livestreamer @1.12.2_0 (active)
+  llvm-3.9 @3.9.1_2
+  llvm-3.9 @3.9.1_3 (active)
+  llvm_select @2_0 (active)
+  lua52 @5.2.4_0
+  lua52 @5.2.4_1 (active)
+  lz4 @1.7.5_0
+  lz4 @1.8.0_0 (active)
+  lzo2 @2.09_0
+  lzo2 @2.10_0 (active)
+  m4 @1.4.18_0
+  m4 @1.4.18_1
+  m4 @1.4.18_2 (active)
+  makeicns @1.4.10a_2 (active)
+  mariadb @5.5.52_0
+  mariadb @5.5.56_0
+  mariadb @5.5.57_0 (active)
+  mariadb-server @5.5.52_1
+  mariadb-server @5.5.56_0
+  mariadb-server @5.5.57_0 (active)
+  maven3 @3.3.9_0
+  maven3 @3.5.0_0 (active)
+  maven_select @0.3_1 (active)
+  mc @4.8.17_0+slang2
+  mc @4.8.18_1+slang2
+  mc @4.8.19_0+slang2 (active)
+  mesa @12.0.1_2+osmesa+python27
+  mesa @17.1.6_0+osmesa+python27 (active)
+  mhash @0.9.9.9_0
+  mhash @0.9.9.9_1 (active)
+  mlt @6.4.1_0 (active)
+  mobipocket @4.14.3_3 (active)
+  mpfr @3.1.4_0
+  mpfr @3.1.5_0
+  mpfr @3.1.6_0 (active)
+  mtr @0.87_0 (active)
+  mysql_select @0.1.2_3 (active)
+  ncdu @1.12_0 (active)
+  ncurses @6.0_0
+  ncurses @6.0-20170708_0
+  ncurses @6.0-20170916_0 (active)
+  nepomuk-core @4.14.3_6
+  nepomuk-core @4.14.3_7 (active)
+  nettle @3.1.1_0
+  nettle @3.3_0 (active)
+  nosetests_select @0.1_0 (active)
+  nspr @4.13.1_0
+  nspr @4.15_0
+  nspr @4.16_0 (active)
+  nss @3.27.1_0
+  nss @3.29.5_0
+  nss @3.32_0 (active)
+  oniguruma5 @5.9.6_0 (active)
+  opencore-amr @0.1.3_0
+  opencore-amr @0.1.5_0 (active)
+  openexr @2.2.0_1 (active)
+  openjpeg @2.1.0_0
+  openjpeg @2.1.2_0
+  openjpeg @2.2.0_0 (active)
+  openjpeg15 @1.5.2_0 (active)
+  openldap @2.4.44_0
+  openldap @2.4.44_1
+  openldap @2.4.44_2
+  openldap @2.4.45_0 (active)
+  openslp @1.2.1_3 (active)
+  openssl @1.0.2h_1
+  openssl @1.0.2j_0
+  openssl @1.0.2k_0
+  openssl @1.0.2l_0 (active)
+  opusfile @0.8_0
+  opusfile @0.9_0 (active)
+  orc @0.4.26_0
+  orc @0.4.27_0
+  orc @0.4.27_1 (active)
+  ossp-uuid @1.6.2_8+perl5_24
+  ossp-uuid @1.6.2_9+perl5_24 (active)
+  oxygen-icons @4.14.3_0 (active)
+  p5.24-authen-sasl @2.160.0_0 (active)
+  p5.24-cgi @4.350.0_0
+  p5.24-cgi @4.360.0_0 (active)
+  p5.24-digest-hmac @1.30.0_0 (active)
+  p5.24-digest-sha1 @2.130.0_4 (active)
+  p5.24-encode-locale @1.50.0_0 (active)
+  p5.24-error @0.170.240_0
+  p5.24-error @0.170.250_0 (active)
+  p5.24-file-listing @6.40.0_1 (active)
+  p5.24-getopt-long @2.49.1_0
+  p5.24-getopt-long @2.500.0_0 (active)
+  p5.24-gssapi @0.280.0_3 (active)
+  p5.24-html-form @6.30.0_1 (active)
+  p5.24-html-parser @3.720.0_0 (active)
+  p5.24-html-tagset @3.200.0_4 (active)
+  p5.24-http-cookies @6.30.0_0
+  p5.24-http-cookies @6.40.0_0 (active)
+  p5.24-http-daemon @6.10.0_1 (active)
+  p5.24-http-date @6.20.0_1 (active)
+  p5.24-http-message @6.110.0_0
+  p5.24-http-message @6.130.0_0 (active)
+  p5.24-http-negotiate @6.10.0_1 (active)
+  p5.24-io @1.250.0_4 (active)
+  p5.24-io-html @1.1.0_0 (active)
+  p5.24-io-socket-inet6 @2.720.0_0 (active)
+  p5.24-io-socket-ip @0.380.0_0
+  p5.24-io-socket-ip @0.390.0_0 (active)
+  p5.24-io-socket-ssl @2.43.0_0
+  p5.24-io-socket-ssl @2.44.0_0
+  p5.24-io-socket-ssl @2.47.0_0
+  p5.24-io-socket-ssl @2.49.0_0
+  p5.24-io-socket-ssl @2.50.0_0
+  p5.24-io-socket-ssl @2.51.0_0 (active)
+  p5.24-libwww-perl @6.260.0_0 (active)
+  p5.24-lwp-mediatypes @6.20.0_1 (active)
+  p5.24-lwp-protocol-https @6.70.0_0 (active)
+  p5.24-mime-base64 @3.150.0_0 (active)
+  p5.24-mozilla-ca @20160104_0 (active)
+  p5.24-net-http @6.130.0_0
+  p5.24-net-http @6.160.0_0 (active)
+  p5.24-net-libidn @0.120.0_4 (active)
+  p5.24-net-smtp-ssl @1.40.0_0 (active)
+  p5.24-net-ssleay @1.800.0_0
+  p5.24-net-ssleay @1.810.0_0 (active)
+  p5.24-pathtools @3.620.0_0 (active)
+  p5.24-scalar-list-utils @1.470.0_0
+  p5.24-scalar-list-utils @1.480.0_0 (active)
+  p5.24-socket @2.24.0_0 (active)
+  p5.24-socket6 @0.280.0_0 (active)
+  p5.24-sub-name @0.210.0_0 (active)
+  p5.24-sub-uplevel @0.260.0_0
+  p5.24-sub-uplevel @0.280.0_0 (active)
+  p5.24-term-readkey @2.370.0_0 (active)
+  p5.24-test-exception @0.430.0_0 (active)
+  p5.24-test-nowarnings @1.40.0_1 (active)
+  p5.24-test-warn @0.320.0_0 (active)
+  p5.24-try-tiny @0.280.0_0 (active)
+  p5.24-uri @1.710.0_0
+  p5.24-uri @1.720.0_0 (active)
+  p5.24-www-robotrules @6.20.0_1 (active)
+  p5.24-xml-parser @2.440.0_0 (active)
+  p11-kit @0.23.2_0
+  p11-kit @0.23.2_1
+  p11-kit @0.23.2_3 (active)
+  pango @1.40.3_1+quartz+x11
+  pango @1.40.5_0+quartz+x11
+  pango @1.40.7_0+quartz+x11
+  pango @1.40.11_0+quartz+x11
+  pango @1.40.12_0+quartz+x11 (active)
+  pcre @8.39_0
+  pcre @8.40_0
+  pcre @8.41_0 (active)
+  pcre2 @10.30_0 (active)
+  perl5 @5.22.2_0+perl5_22
+  perl5 @5.24.0_0+perl5_24
+  perl5 @5.24.1_0+perl5_24
+  perl5 @5.24.2_0+perl5_24 (active)
+  perl5.22 @5.22.2_1
+  perl5.22 @5.22.2_2
+  perl5.22 @5.22.3_0 (active)
+  perl5.24 @5.24.0_0
+  perl5.24 @5.24.0_1
+  perl5.24 @5.24.1_0
+  perl5.24 @5.24.2_0 (active)
+  phonon @4.9.0_0+compversion440
+  phonon @4.9.1_0+compversion440 (active)
+  pinentry-mac @0.9.4_0 (active)
+  pkgconfig @0.29.1_0
+  pkgconfig @0.29.2_0 (active)
+  poppler @0.51.0_0
+  poppler @0.56.0_0
+  poppler @0.57.0_0 (active)
+  poppler-data @0.4.7_0
+  poppler-data @0.4.8_0 (active)
+  poppler-qt4-mac @0.51.0_0
+  poppler-qt4-mac @0.56.0_0
+  poppler-qt4-mac @0.57.0_0 (active)
+  popt @1.16_0 (active)
+  portaudio @19.20140130_1 (active)
+  prison @1.0_3 (active)
+  pth @2.0.7_1 (active)
+  pv @1.6.0_0
+  pv @1.6.6_0 (active)
+  pwgen @2.07_0
+  pwgen @2.08_0 (active)
+  py27-appdirs @1.4.0_0
+  py27-appdirs @1.4.3_0 (active)
+  py27-asn1 @0.2.2_0
+  py27-asn1 @0.3.2_0
+  py27-asn1 @0.3.6_0 (active)
+  py27-asn1crypto @0.22.0_0
+  py27-asn1crypto @0.23.0_0 (active)
+  py27-bcrypt @3.1.3_0 (active)
+  py27-beaker @1.8.1_0 (active)
+  py27-cairo @1.10.0_3 (active)
+  py27-certifi @2017.01.23_0
+  py27-certifi @2017.04.17_0
+  py27-certifi @2017.07.27_0 (active)
+  py27-cffi @1.10.0_0
+  py27-cffi @1.11.0_0 (active)
+  py27-crypto @2.6.1_1 (active)
+  py27-cryptography @2.0_0
+  py27-cryptography @2.0.3_0 (active)
+  py27-cython @0.25.2_0
+  py27-cython @0.26_0 (active)
+  py27-enum34 @1.1.6_0 (active)
+  py27-gdbm @2.7.13_0 (active)
+  py27-gobject @2.28.6_3 (active)
+  py27-httplib2 @2-0.10.3_0 (active)
+  py27-idna @2.5_0
+  py27-idna @2.6_0 (active)
+  py27-ipaddress @1.0.18_0 (active)
+  py27-jinja2 @2.9.6_0 (active)
+  py27-mako @1.0.6_0
+  py27-mako @1.0.7_0 (active)
+  py27-markupsafe @0.23_0 (active)
+  py27-nose @1.3.7_0 (active)
+  py27-numpy @1.12.0_0+gfortran
+  py27-numpy @1.12.1_0+gfortran
+  py27-numpy @1.13.1_0+gfortran (active)
+  py27-packaging @16.8_0 (active)
+  py27-paramiko @2.2.1_0 (active)
+  py27-parsing @2.1.10_0
+  py27-parsing @2.2.0_0 (active)
+  py27-pycparser @2.18_0 (active)
+  py27-pygtk @2.24.0_3+x11 (active)
+  py27-pynacl @1.1.2_0 (active)
+  py27-setuptools @32.3.1_0
+  py27-setuptools @34.2.0_0
+  py27-setuptools @34.3.3_0
+  py27-setuptools @36.2.4_0
+  py27-setuptools @36.2.7_0
+  py27-setuptools @36.5.0_0 (active)
+  py27-six @1.10.0_0 (active)
+  py27-yaml @3.12_0 (active)
+  py34-appdirs @1.4.0_0
+  py34-appdirs @1.4.3_0 (active)
+  py34-certifi @2017.01.23_0
+  py34-certifi @2017.04.17_0
+  py34-certifi @2017.07.27_0 (active)
+  py34-chardet @3.0.2_0 (active)
+  py34-idna @2.5_0
+  py34-idna @2.6_0 (active)
+  py34-packaging @16.8_0 (active)
+  py34-parsing @2.1.10_0
+  py34-parsing @2.2.0_0 (active)
+  py34-readline @6.2.4.1_1 (active)
+  py34-requests @2.12.5_0
+  py34-requests @2.13.0_0
+  py34-requests @2.18.2_0
+  py34-requests @2.18.4_0 (active)
+  py34-setuptools @32.3.1_0
+  py34-setuptools @34.2.0_0
+  py34-setuptools @36.2.4_0
+  py34-setuptools @36.2.7_0 (active)
+  py34-six @1.10.0_0 (active)
+  py34-urllib3 @1.22_0 (active)
+  python2_select @0.0_2 (active)
+  python3_select @0.0_1 (active)
+  python_select @0.3_7 (active)
+  qca @2.1.0_4
+  qca @2.1.0_5 (active)
+  qimageblitz @0.0.6_2 (active)
+  qjson @0.8.1_2
+  qjson @0.9.0_0 (active)
+  qrencode @3.4.4_0 (active)
+  qt4-mac @4.8.7_4
+  qt4-mac @4.8.7_5 (active)
+  qt4-mac-mariadb-plugin @4.8.7_1 (active)
+  raptor2 @2.0.8_1 (active)
+  rasqal @0.9.29_1 (active)
+  readline @6.3.003_1
+  readline @7.0.003_1 (active)
+  redland @1.0.15_1+db46 (active)
+  rsync @3.1.2_0 (active)
+  samba3 @3.6.25_0
+  samba3 @3.6.25_1 (active)
+  schroedinger @1.0.11_0 (active)
+  shared-desktop-ontologies @0.11.0_1 (active)
+  shared-mime-info @1.7_2 (active)
+  slang2 @2.2.4_3 (active)
+  smake @1.2.3_0
+  smake @1.2.5_0 (active)
+  soprano @2.9.4_2 (active)
+  soundtouch @1.9.2_0 (active)
+  sox @14.4.2_0 (active)
+  soxr @0.1.2_0
+  soxr @0.1.2_1 (active)
+  speex @1.2rc1_0
+  speex @1.2.0_0 (active)
+  sqlite3 @3.14.2_0
+  sqlite3 @3.16.2_0
+  sqlite3 @3.17.0_0
+  sqlite3 @3.18.0_0
+  sqlite3 @3.19.3_0
+  sqlite3 @3.20.1_0 (active)
+  strigi @0.7.8_7
+  strigi @0.7.8_8 (active)
+  taglib @1.11.1_0 (active)
+  tcp_wrappers @20_2 (active)
+  texinfo @6.3_0
+  texinfo @6.4_0
+  texinfo @6.5_0 (active)
+  tiff @4.0.6_1
+  tiff @4.0.7_0
+  tiff @4.0.8_0 (active)
+  toilet @0.3_2 (active)
+  twolame @0.3.13_1 (active)
+  urw-fonts @1.0.7pre44_0 (active)
+  vala @0.34.4_0
+  vala @0.36.0_0
+  vala @0.36.4_0 (active)
+  vcdimager @0.7.24_4 (active)
+  virtuoso @7.1.0_2
+  virtuoso-7 @7.2.4.2_1
+  virtuoso-7 @7.2.4.2_2
+  virtuoso-7 @7.2.4.2_3 (active)
+  VLC @2.2.4_4+quartz
+  VLC @2.2.4_6+quartz
+  VLC @2.2.4_9+quartz
+  VLC @2.2.6_0+quartz (active)
+  vte-gtk2-compat @0.28.2_4+python27 (active)
+  watch @3.3.11_0 (active)
+  wavpack @5.0.0_0
+  wavpack @5.1.0_0 (active)
+  webp @0.5.2_0
+  webp @0.5.2_1
+  webp @0.6.0_0 (active)
+  wget @1.18_1+ssl
+  wget @1.19.1_0+ssl (active)
+  wxWidgets-3.0 @3.0.2_4 (active)
+  wxWidgets-common @3.1.0_0 (active)
+  wxWidgets_select @1.0_1 (active)
+  x264 @20160119_0
+  x264 @20161201_0 (active)
+  x265 @2.2_0
+  x265 @2.3_0
+  x265 @2.5_0 (active)
+  xar @1.5.2_2
+  xar @1.6.1_0 (active)
+  Xft2 @2.3.2_0 (active)
+  xmlcatmgr @2.2_1 (active)
+  xorg-bigreqsproto @1.1.2_0 (active)
+  xorg-compositeproto @0.4.2_0 (active)
+  xorg-damageproto @1.2.1_0 (active)
+  xorg-dri2proto @2.8_0 (active)
+  xorg-fixesproto @5.0_0 (active)
+  xorg-glproto @1.4.17_0 (active)
+  xorg-inputproto @2.3.2_0 (active)
+  xorg-kbproto @1.0.7_0 (active)
+  xorg-libice @1.0.9_0 (active)
+  xorg-libpthread-stubs @0.3_0 (active)
+  xorg-libsm @1.2.1_0
+  xorg-libsm @1.2.2_0 (active)
+  xorg-libX11 @1.6.3_0
+  xorg-libX11 @1.6.4_0
+  xorg-libX11 @1.6.5_0 (active)
+  xorg-libXau @1.0.8_0 (active)
+  xorg-libxcb @1.12_2+python27 (active)
+  xorg-libXcomposite @0.4.4_0 (active)
+  xorg-libXcursor @1.1.14_0 (active)
+  xorg-libXdamage @1.1.4_0 (active)
+  xorg-libXdmcp @1.1.2_0 (active)
+  xorg-libXext @1.3.3_0 (active)
+  xorg-libXfixes @5.0.2_0
+  xorg-libXfixes @5.0.3_0 (active)
+  xorg-libXi @1.7.8_0 (active)
+  xorg-libXinerama @1.1.3_0 (active)
+  xorg-libXmu @1.1.2_0 (active)
+  xorg-libXrandr @1.5.0_0
+  xorg-libXrandr @1.5.1_0 (active)
+  xorg-libXScrnSaver @1.2.2_0 (active)
+  xorg-libXt @1.1.5_1 (active)
+  xorg-libXtst @1.2.3_0 (active)
+  xorg-libXv @1.0.11_0 (active)
+  xorg-libXxf86vm @1.1.4_0 (active)
+  xorg-randrproto @1.5.0_0 (active)
+  xorg-recordproto @1.14.2_0 (active)
+  xorg-renderproto @0.11.1_0 (active)
+  xorg-scrnsaverproto @1.2.2_0 (active)
+  xorg-util-macros @1.19.0_0 (active)
+  xorg-videoproto @2.3.3_0 (active)
+  xorg-xcb-proto @1.12_1+python27 (active)
+  xorg-xcb-util @0.4.0_0 (active)
+  xorg-xcmiscproto @1.2.2_0 (active)
+  xorg-xextproto @7.3.0_0 (active)
+  xorg-xf86bigfontproto @1.2.0_0 (active)
+  xorg-xf86vidmodeproto @2.3.1_0 (active)
+  xorg-xineramaproto @1.2.1_0 (active)
+  xorg-xproto @7.0.29_0
+  xorg-xproto @7.0.31_0 (active)
+  xorg-xtrans @1.3.5_0 (active)
+  xrender @0.9.9_0
+  xrender @0.9.10_0 (active)
+  XviD @1.3.4_0 (active)
+  xz @5.2.2_0
+  xz @5.2.3_0 (active)
+  yasm @1.3.0_0 (active)
+  zlib @1.2.8_0
+  zlib @1.2.11_0 (active)
