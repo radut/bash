@@ -1,6 +1,7 @@
 ### deactivate python from port
 https://apple.stackexchange.com/questions/107546/how-to-deactivate-all-python-ports
 sudo port deactivate py-* and active 
+sudo port deactivate python27 and active 
 
 when : 
 which python
