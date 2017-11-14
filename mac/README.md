@@ -20,3 +20,15 @@ which curl
 it should be
 which curl
 /usr/bin/curl
+
+
+
+
+same for git !
+sudo port deactivate git and active
+which git
+/opt/local/bin/git
+
+it should be
+which git
+/usr/bin/git
