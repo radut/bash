@@ -13,6 +13,7 @@ which python
 
 
 same for curl !
+sudo port deactivate curl and active
 which curl
 /opt/local/bin/curl
 
