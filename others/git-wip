@@ -1,1 +1,1 @@
-git commit -am "WIP up";git push ;git remote |grep 'radut.info' && git push radut.info;git remote | grep 'bitbucket' && git push bitbucket
+git commit -am "WIP [skip ci]";git push ;git remote |grep 'radut.info' && git push radut.info;git remote | grep 'bitbucket' && git push bitbucket
