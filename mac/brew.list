@@ -17,6 +17,8 @@ cunit
 dbus
 dialog
 dnsmasq
+docker-machine
+docker-machine-driver-xhyve
 ffmpeg
 figlet
 fontconfig
@@ -45,6 +47,7 @@ icu4c
 intltool
 jansson
 jpeg
+kubernetes-cli
 lame
 leiningen
 letsencrypt
