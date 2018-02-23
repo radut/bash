@@ -52,6 +52,8 @@ export PATH="$PATH:/Applications/microchip/xc8/v1.36/bin"
 
 export PATH=$PATH:/usr/share/pk2
 
+export PATH=$PATH:~/apache-maven/bin
+
 alias ij="open -a /Applications/IntelliJ\ IDEA.app/"
 alias intelli=ij 
 alias code="open -a /Applications/Visual\ Studio\ Code.app/"

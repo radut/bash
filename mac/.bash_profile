@@ -57,3 +57,9 @@ export PATH="$PATH:/Applications/microchip/xc8/v1.36/bin"
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 # Finished adapting your PATH environment variable for use with MacPorts.
 
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/radut/google-cloud-sdk/path.bash.inc' ]; then source '/Users/radut/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/radut/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/radut/google-cloud-sdk/completion.bash.inc'; fi
