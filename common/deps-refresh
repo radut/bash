@@ -1,0 +1,73 @@
+#!/bin/bash
+
+YARN="yarn --pure-lockfile"
+NPM="npm --no-package-lock --no-shrinkwrap"
+
+CMD=$YARN
+FIX="yes"
+CLEAN="no"
+
+function usage {
+    echo "Usage: $(basename $0) [--yarn|--npm] [--clean]. If no arguments are given, --yarn is assumed."
+}
+
+# https://stackoverflow.com/questions/402377/using-getopts-in-bash-shell-script-to-get-long-and-short-command-line-options/7680682#7680682
+optspec=":-:"
+while getopts "$optspec" optchar; do
+    case "${optchar}" in
+        -)
+            case "${OPTARG}" in
+                yarn)
+                    CMD=$YARN
+                    FIX="yes"
+                    ;;
+                npm)
+                    CMD=$NPM
+                    FIX="no"
+                    ;;
+                clean)
+                    CLEAN="yes"
+                    ;;
+                help)
+                    usage
+                    exit
+                    ;;
+                *)
+                    echo "Unknown option --${OPTARG}" >&2
+                    usage
+                    exit 1
+                    ;;
+            esac;;
+        *)
+            if [ "$OPTERR" != 1 ] || [ "${optspec:0:1}" = ":" ]; then
+                echo "Non-option argument: '-${OPTARG}'" >&2
+                usage
+                exit 1
+            fi
+            ;;
+    esac
+done
+
+# clean
+if [ "$CLEAN" == "yes" ]; then
+    rm -rf node_modules
+fi
+
+# install deps
+$CMD install
+
+# tether triggers sasslint errors so we remove it
+rm -rf node_modules/tether
+if [ -d "em_modules" ]; then
+    for module in em_modules/*; do 
+        [ -d "$module/node_modules/tether" ] && rm -rf $module/node_modules/tether
+    done
+fi
+
+# yarn fails to install babel loader 6, for some reason.
+if [[ ! "$(basename $PWD)" =~ ^em-.+$ ]]; then
+    if [ "$FIX" == "yes" ]; then
+        $YARN add babel-loader@6
+        git checkout -- package.json
+    fi
+fi
