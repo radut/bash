@@ -23,3 +23,4 @@ if [ -d "$HOME/bin" ] ; then
 fi
 
 export PATH="$PATH:$HOME/.npm-packages/bin/"
+alias pbcopy='xclip -selection clipboard'
