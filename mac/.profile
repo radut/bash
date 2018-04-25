@@ -98,3 +98,4 @@ export PATH="$PATH:"/Applications/microchip/xc32/v1.40/bin""
 export PATH="$PATH:/Applications/microchip/xc8/v1.36/bin"
 export PATH="$PATH:$HOME/.npm-packages/bin/"
 source docker.io
+alias k=kubectl
