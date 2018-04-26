@@ -102,10 +102,6 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-
-
-
-
 #export PATH=$PATH:/home/tr/apache-maven-3.2.5/bin
 export PATH=$PATH:/home/tr/apache-maven/bin
 export ANDROID_HOME=/home/tr/android-sdk
@@ -236,21 +232,33 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 export LESS="-eiFRSX"
 
-
 eval "$(_PLATFORMIO_COMPLETE=source platformio)"
 #eval "$(_PLATFORMIO_COMPLETE=source pio)"
 
 
 echo ".bashrc done"
 
-# The next line updates PATH for the Google Cloud SDK.
-source '/home/tr/Downloads/google-cloud-sdk/path.bash.inc'
-
-# The next line enables shell command completion for gcloud.
-source '/home/tr/Downloads/google-cloud-sdk/completion.bash.inc'
-
 #http://stackoverflow.com/questions/9457233/unlimited-bash-history
 HISTSIZE=5000
 HISTFILESIZE=5000
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
-function gi() { curl -L -s https://www.gitignore.io/api/\$@ ;}
+export PATH=$PATH:/usr/local/apache-jmeter/bin
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f /home/tr/Downloads/google-cloud-sdk/path.bash.inc ]; then
+  source '/home/tr/Downloads/google-cloud-sdk/path.bash.inc'
+fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f /home/tr/Downloads/google-cloud-sdk/completion.bash.inc ]; then
+  source '/home/tr/Downloads/google-cloud-sdk/completion.bash.inc'
+fi
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+alias pbcopy='xclip -selection clipboard'
+alias k=kubectl
