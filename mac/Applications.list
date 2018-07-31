@@ -21,6 +21,7 @@ Backup and Sync.app
 BetterTouchTool.app
 Blackmagic Disk Speed Test.app
 CLion.app
+CMake.app
 Calculator.app
 Calendar.app
 CheatSheet.app
@@ -83,6 +84,7 @@ Microsoft PowerPoint.app
 Microsoft Word.app
 Mission Control.app
 MySQLWorkbench.app
+NTFS for Mac.app
 NetBeans
 Nik Collection
 Notes.app
@@ -92,8 +94,6 @@ OmniGraffle.app
 Opera.app
 Pages.app
 Paint S.app
-Paragon ExtFS for Mac 11.app
-Paragon NTFS for Mac 15.app
 Parallels Desktop.app
 Path Finder.app
 Photo Booth.app
@@ -120,7 +120,6 @@ TeamViewer.app
 TextEdit.app
 TextEditor.app
 TextMate.app
-TextWrangler.app
 The Unarchiver.app
 Thunderbird.app
 Time Machine.app
@@ -145,12 +144,13 @@ blenderplayer.app
 cadnano2.app
 calibre.app
 eclipseArduino
+extFS for Mac.app
 fwbuilder-5.1.0.3599.app
 gfxCardStatus.app
 iBooks.app
 iCMS.app
 iMovie.app
-iTerm 2.app
+iTerm.app
 iTunes.app
 iZip Unarchiver.app
 jEdit.app
