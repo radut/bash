@@ -91,11 +91,9 @@ export CLICOLOR=1
 #you can use this if you are using a black background:
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
-export PATH="$PATH:"/Applications/microchip/xc16/v1.26/bin""
-
-export PATH="$PATH:"/Applications/microchip/xc32/v1.40/bin""
-
-export PATH="$PATH:/Applications/microchip/xc8/v1.36/bin"
-export PATH="$PATH:$HOME/.npm-packages/bin/"
 source docker.io
+
+export PATH="$PATH:$HOME/.npm-packages/bin/"
+export PATH="$PATH:$HOME/apache-maven/bin/"
+export PATH="$PATH:$HOME/apache-jmeter/bin/"
 alias k=kubectl
