@@ -8,6 +8,7 @@ export PATH="/usr/local/heroku/bin:$PATH"
 source .profile
 
 . .maven-completion.bash
+. .kubectl-completion.bash
 
 export PATH=/usr/local/mysql/bin:$PATH:/Applications/microchip/xc8/v1.32/bin
 
