@@ -47,7 +47,7 @@ The following ports are currently installed:
   convertlit @1.8_2 (active)
   coreutils @8.30_0 (active)
   ctags @5.8_2+universal (active)
-  curl @7.61.1_0+ssl+universal (active)
+  curl @7.61.1_0+ssl+universal
   curl-ca-bundle @7.61.1_2 (active)
   cyrus-sasl2 @2.1.26_6+kerberos (active)
   cython_select @0.1_0 (active)
@@ -148,7 +148,7 @@ The following ports are currently installed:
   ghostscript @9.24_1+x11 (active)
   giflib @4.2.3_0+x11 (active)
   gindent @2.2.11_0+universal (active)
-  git @2.19.0_0+credential_osxkeychain+doc+pcre+perl5_26 (active)
+  git @2.19.0_0+credential_osxkeychain+doc+pcre+perl5_26
   glib-networking @2.54.1_0 (active)
   glib2 @2.56.2_0+universal+x11 (active)
   gmake @4.2.1_0 (active)
