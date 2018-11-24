@@ -7,9 +7,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 source .profile
 
-. .maven-completion.bash
-. .kubectl-completion.bash
-
 export PATH=/usr/local/mysql/bin:$PATH:/Applications/microchip/xc8/v1.32/bin
 
 ##
@@ -58,3 +55,7 @@ if [ -f '/Users/radut/google-cloud-sdk/path.bash.inc' ]; then source '/Users/rad
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/radut/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/radut/google-cloud-sdk/completion.bash.inc'; fi
+
+. .maven-completion.bash
+. .kubectl-completion.bash
+
