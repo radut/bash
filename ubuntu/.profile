@@ -22,6 +22,4 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-export PATH="$PATH:$HOME/.npm-packages/bin/"
-alias pbcopy='xclip -selection clipboard'
 alias k=kubectl

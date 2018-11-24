@@ -247,18 +247,25 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 export PATH=$PATH:/usr/local/apache-jmeter/bin
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f /home/tr/Downloads/google-cloud-sdk/path.bash.inc ]; then
-  source '/home/tr/Downloads/google-cloud-sdk/path.bash.inc'
+if [ -f /home/tr/google-cloud-sdk/path.bash.inc ]; then
+  source '/home/tr/google-cloud-sdk/path.bash.inc'
 fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f /home/tr/Downloads/google-cloud-sdk/completion.bash.inc ]; then
-  source '/home/tr/Downloads/google-cloud-sdk/completion.bash.inc'
+if [ -f /home/tr/google-cloud-sdk/completion.bash.inc ]; then
+  source '/home/tr/google-cloud-sdk/completion.bash.inc'
 fi
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+. .kubectl-completion.bash
+. .maven-completion.bash
+
+
+export PATH="$PATH:$HOME/.npm-packages/bin/"
+export PATH="$PATH:$HOME/apache-jmeter/bin/"
 alias pbcopy='xclip -selection clipboard'
 alias k=kubectl
+export DOCKER_HOST=tcp://0.0.0.0:2375
