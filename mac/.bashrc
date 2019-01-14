@@ -43,14 +43,8 @@ export LESS=eFRX
 
 export ANDROID_HOME="/Applications/android-sdk/"
 export PATH="$PATH:$ANDROID_HOME/platform-tools/"
-
-export PATH="$PATH:"/Applications/microchip/xc16/v1.26/bin""
-
-export PATH="$PATH:"/Applications/microchip/xc32/v1.40/bin""
-
-export PATH="$PATH:/Applications/microchip/xc8/v1.36/bin"
-
 export PATH=$PATH:/usr/share/pk2
+
 
 alias ij="open -a /Applications/IntelliJ\ IDEA.app/"
 alias intelli=ij 

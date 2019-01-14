@@ -7,6 +7,9 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 source .profile
 
+. .maven-completion.bash
+. .kubectl-completion.bash
+
 export PATH=/usr/local/mysql/bin:$PATH:/Applications/microchip/xc8/v1.32/bin
 
 ##
@@ -29,6 +32,8 @@ export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 
 #source /usr/local/git/contrib/completion/git-completion.bash
 
+
+
 source .git-completion.bash
 
 export PATH="$PATH:"/Applications/microchip/xc16/v1.26/bin""
@@ -37,9 +42,9 @@ export PATH="$PATH:"/Applications/microchip/xc32/v1.40/bin""
 
 export PATH="$PATH:"/Applications/microchip/xc8/v1.36/bin""
 
-export PATH="$PATH:"/Applications/microchip/xc8/v1.36/bin""
-
 #test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+
+
 
 ##
 # Your previous /Users/radut/.bash_profile file was backed up as /Users/radut/.bash_profile.macports-saved_2016-09-22_at_01:18:48
@@ -51,11 +56,7 @@ export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/radut/google-cloud-sdk/path.bash.inc' ]; then source '/Users/radut/google-cloud-sdk/path.bash.inc'; fi
+if [ -f '/Users/radu.toader/google-cloud-sdk/path.bash.inc' ]; then source '/Users/radu.toader/google-cloud-sdk/path.bash.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/radut/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/radut/google-cloud-sdk/completion.bash.inc'; fi
-
-. .maven-completion.bash
-. .kubectl-completion.bash
-
+if [ -f '/Users/radu.toader/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/radu.toader/google-cloud-sdk/completion.bash.inc'; fi
