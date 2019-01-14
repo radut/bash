@@ -110,7 +110,10 @@ export PATH=$PATH:/home/tr/genymotion:/home/tr/android-sdk/platform-tools
 export JAVA_OPTS="-XX:MaxPermSize=512m -Xms256m -Xmx1024m -Xss28m -Xmn24m"
 
 #export JAVA_HOME=/usr/lib/jvm/java-7-oracle
-export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+#export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+export JAVA_HOME=$(readlink -f `which java` | sed "s:jre/bin/java::" | sed "s:bin/java::")
+# sudo update-alternatives --list java
+# sudo update-alternatives --config java
 
 export PATH=$PATH:'/home/tr/.wine/drive_c/Program Files (x86)/PICC'
 
@@ -247,13 +250,13 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 export PATH=$PATH:/usr/local/apache-jmeter/bin
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f /home/tr/google-cloud-sdk/path.bash.inc ]; then
-  source '/home/tr/google-cloud-sdk/path.bash.inc'
+if [ -f /home/tr/Downloads/google-cloud-sdk/path.bash.inc ]; then
+  source '/home/tr/Downloads/google-cloud-sdk/path.bash.inc'
 fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f /home/tr/google-cloud-sdk/completion.bash.inc ]; then
-  source '/home/tr/google-cloud-sdk/completion.bash.inc'
+if [ -f /home/tr/Downloads/google-cloud-sdk/completion.bash.inc ]; then
+  source '/home/tr/Downloads/google-cloud-sdk/completion.bash.inc'
 fi
 
 export NVM_DIR="$HOME/.nvm"
