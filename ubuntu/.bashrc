@@ -266,6 +266,7 @@ export NVM_DIR="$HOME/.nvm"
 . .kubectl-completion.bash
 . .maven-completion.bash
 
+export REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
 
 export PATH="$PATH:$HOME/.npm-packages/bin/"
 export PATH="$PATH:$HOME/apache-jmeter/bin/"
