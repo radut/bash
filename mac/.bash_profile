@@ -5,7 +5,7 @@ echo "load .bash_profile"
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
-source .profile
+source ~/.profile
 
 export PATH=/usr/local/mysql/bin:$PATH:/Applications/microchip/xc8/v1.32/bin
 
@@ -17,7 +17,7 @@ export PATH=/usr/local/mysql/bin:$PATH:/Applications/microchip/xc8/v1.32/bin
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 # Finished adapting your PATH environment variable for use with MacPorts.
 
-source .bashrc
+source ~/.bashrc
 
 ##
 # Your previous /Users/tr/.bash_profile file was backed up as /Users/tr/.bash_profile.macports-saved_2015-11-08_at_16:14:26
@@ -29,7 +29,7 @@ export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 
 #source /usr/local/git/contrib/completion/git-completion.bash
 
-source .git-completion.bash
+source ~/.git-completion.bash
 
 export PATH="$PATH:"/Applications/microchip/xc16/v1.26/bin""
 
@@ -54,8 +54,8 @@ if [ -f '/Users/radut/google-cloud-sdk/path.bash.inc' ]; then source '/Users/rad
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/radut/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/radut/google-cloud-sdk/completion.bash.inc'; fi
 
-. .maven-completion.bash
-. .kubectl-completion.bash
+. ~/.maven-completion.bash
+. ~/.kubectl-completion.bash
 
 export CURL_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
 export REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
