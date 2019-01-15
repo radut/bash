@@ -102,7 +102,6 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-#export PATH=$PATH:/home/tr/apache-maven-3.2.5/bin
 export PATH=$PATH:/home/tr/apache-maven/bin
 export ANDROID_HOME=/home/tr/android-sdk
 export PATH=$PATH:/home/tr/genymotion:/home/tr/android-sdk/platform-tools
@@ -127,7 +126,7 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 . /etc/bash_completion.d/docker
 . /etc/bash_completion.d/git-completion.bash
-. /etc/bash_completion.d/mvn 
+. /etc/bash_completion.d/mvn
 
 export PATH="/home/tr/anaconda/bin:$PATH"
 

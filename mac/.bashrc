@@ -43,11 +43,11 @@ export LESS=eFRX
 
 export ANDROID_HOME="/Applications/android-sdk/"
 export PATH="$PATH:$ANDROID_HOME/platform-tools/"
+
 export PATH=$PATH:/usr/share/pk2
 
-
 alias ij="open -a /Applications/IntelliJ\ IDEA.app/"
-alias intelli=ij 
+alias intelli=ij
 alias code="open -a /Applications/Visual\ Studio\ Code.app/"
 
 #http://stackoverflow.com/questions/9457233/unlimited-bash-history

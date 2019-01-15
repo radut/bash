@@ -12,12 +12,10 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
 fi
 
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
-# /usr/libexec/java_home -V 
 export PATH=$PATH:$JAVA_HOME/bin
 
 export PATH=$PATH:/Applications/microchip/xc8/v1.32/bin
 export PATH=$PATH:/opt/local/Library/Frameworks/Python.framework/Versions/2.7/bin
-export PATH=$PATH:~/apache-jmeter/bin
 
 alias avrora='java -jar /usr/local/avrora/avrora.jar'
 
@@ -93,14 +91,9 @@ export CLICOLOR=1
 #you can use this if you are using a black background:
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
-export PATH="$PATH:/Applications/microchip/xc8/v1.36/bin"
-export PATH="$PATH:"/Applications/microchip/xc16/v1.26/bin""
-export PATH="$PATH:"/Applications/microchip/xc32/v1.40/bin""
+source docker.io
 
 export PATH="$PATH:$HOME/.npm-packages/bin/"
 export PATH="$PATH:$HOME/apache-maven/bin/"
 export PATH="$PATH:$HOME/apache-jmeter/bin/"
-
-
-source docker.io
 alias k=kubectl

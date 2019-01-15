@@ -53,7 +53,7 @@ __docker_previous_extglob_setting=$(shopt -p extglob)
 shopt -s extglob
 
 __docker_q() {
-	docker ${host:+-H "$host"} ${config:+--config "$config"} 2>/dev/null "$@"
+	docker.io ${host:+-H "$host"} ${config:+--config "$config"} 2>/dev/null "$@"
 }
 
 __docker_complete_containers_all() {
