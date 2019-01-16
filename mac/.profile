@@ -1,8 +1,4 @@
-
 echo "load .profile"
-# MacPorts Installer addition on 2014-04-02_at_01:23:52: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/opt/local/bin:/opt/local/sbin:/usr/bin:/usr/sbin/:/usr/local/bin:/usr/local/sbin:$PATH
-# Finished adapting your PATH environment variable for use with MacPorts.
 if [ -f /opt/local/etc/bash_completion ]; then
     . /opt/local/etc/bash_completion
 fi
@@ -14,10 +10,7 @@ fi
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 export PATH=$PATH:$JAVA_HOME/bin
 
-export PATH=$PATH:/Applications/microchip/xc8/v1.32/bin
 export PATH=$PATH:/opt/local/Library/Frameworks/Python.framework/Versions/2.7/bin
-
-alias avrora='java -jar /usr/local/avrora/avrora.jar'
 
 PROMPT_COMMAND='history -a;echo -en "\033[m\033[38;5;2m"$(memory.py)"\t\033[m\033[38;5;55m$(uptime |sed "s/.*:\(.*\)/\1/g")\033[m $(get_git_changes)"'
 export PROMPT_COMMAND
@@ -35,7 +28,7 @@ export PS1
 #eval "$(docker-machine env default)"
 
 #bash /Applications/Docker/Docker\ Quickstart\ Terminal.app/Contents/Resources/Scripts/start.sh
- 
+
 #!/bin/bash
 
 VM=default
@@ -79,7 +72,7 @@ function startDockerMachine(){
     #yes | $DOCKER_MACHINE regenerate-certs $VM
 #else
 #eval $($DOCKER_MACHINE env --shell=bash $VM)
-#echo 
+#echo
 #echo -e "${BLUE}docker${NC} is configured to use the ${GREEN}$VM${NC} machine with IP ${GREEN}$($DOCKER_MACHINE ip $VM)${NC}"
 #echo
 #fi
