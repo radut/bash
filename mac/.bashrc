@@ -22,7 +22,7 @@ HISTSIZE=5000
 HISTFILESIZE=5000
 
 if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+    source ~/.bash_aliases
 fi
 
 
