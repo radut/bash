@@ -268,4 +268,5 @@ export PATH="$PATH:$HOME/.npm-packages/bin/"
 export PATH="$PATH:$HOME/apache-jmeter/bin/"
 alias pbcopy='xclip -selection clipboard'
 alias k=kubectl
-export DOCKER_HOST=tcp://0.0.0.0:2375
+#kubectx and kubens
+export PATH=~/.kubectx:$PATH
