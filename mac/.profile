@@ -7,8 +7,10 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
     . `brew --prefix`/etc/bash_completion
 fi
 
-export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+export JAVA_HOME=`/usr/libexec/java_home -v 11`
 export PATH=$PATH:$JAVA_HOME/bin
+
+export PATH=$PATH:/usr/local/mysql/bin
 
 export PATH=$PATH:/opt/local/Library/Frameworks/Python.framework/Versions/2.7/bin
 
