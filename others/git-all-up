@@ -1,1 +1,6 @@
-for i in `ls` ;do pushd $i;git up;popd;done
+for i in `ls` ; 
+    do pushd $i;
+        git up &
+    popd;
+done
+fg
