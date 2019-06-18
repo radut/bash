@@ -2,7 +2,8 @@
 	name = Radu Toader
 	email = radu.m.toader@gmail.com
 [credential]
-	helper = store
+	helper = !aws codecommit credential-helper $@
+	UseHttpPath = true
 [alias]
     ignore = update-index --assume-unchanged
     unignore = update-index --no-assume-unchanged
@@ -65,5 +66,7 @@
 	autosetuprebase = always
 [core]
 	excludesfile = ~/.gitignore
+	eol = lf
+	autocrlf = input
 [status]
 	submoduleSummary = true
