@@ -5,9 +5,11 @@ VERSION=`git describe --abbrev=0 --tags 2>/dev/null`
 
 if [ -z $VERSION ];then
 	NEW_TAG="1.0.0"
-	echo "No tag present. I will create an push tag $NEW_TAG"
+	echo "No tag present."
+	echo "Creating tag: $NEW_TAG"
     git tag $NEW_TAG
     git push --tags
+	echo "Tag created and pushed: $NEW_TAG"
 	exit 0;
 fi
 
@@ -32,7 +34,7 @@ if [ -z "$CURRENT_COMMIT_TAG" ]; then
 	echo "Updating $VERSION to $NEW_TAG"
     git tag $NEW_TAG
     git push --tags
-	echo "Tagged created and pushed: $NEW_TAG"
+	echo "Tag created and pushed: $NEW_TAG"
 else
-    echo "This commit is already tagged: $CURRENT_COMMIT_TAG"
+    echo "This commit is already tagged as: $CURRENT_COMMIT_TAG"
 fi
