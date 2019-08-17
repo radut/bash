@@ -32,7 +32,7 @@ if [ -z "$CURRENT_COMMIT_TAG" ]; then
 	echo "Updating $VERSION to $NEW_TAG"
     git tag $NEW_TAG
     git push --tags
-	echo "Tagged $NEW_TAG pushed"
+	echo "Tagged created and pushed: $NEW_TAG"
 else
     echo "This commit is already tagged: $CURRENT_COMMIT_TAG"
 fi
