@@ -1,8 +1,14 @@
 #! /bin/bash   
 set -m
+PARALLEL=0
+MAX_PARALLEL=10
 for i in `ls` ; 
     do pushd $i;
         git up &
+		let "PARALLEL++"
+		if [[  "$PARALLEL" -ge "$MAX_PARALLEL" ]]; then
+			fg
+		fi	
     popd;
 done
 fg
