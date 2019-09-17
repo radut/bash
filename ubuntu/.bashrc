@@ -238,10 +238,9 @@ eval "$(_PLATFORMIO_COMPLETE=source platformio)"
 
 echo ".bashrc done"
 
-#export GOPATH=$HOME/go
 export GOPATH=$HOME/go
-#export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
-export PATH=$PATH:/usr/local/go/bin
+export GOROOT=/usr/local/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 export PATH=$PATH:/usr/local/apache-jmeter/bin
 
