@@ -213,8 +213,6 @@ export PS1
 
 [[ -s "/home/tr/.gvm/scripts/gvm" ]] && source "/home/tr/.gvm/scripts/gvm"
 
-#export PATH=$PATH:/home/tr/.gvm/gos/go1.5/bin
-#export GOPATH=/home/tr/.gvm/gos/go1.5
 
 
 export PATH="$PATH:"/media/radu.toader/Storage/opt/microchip/xc8/v1.36/bin""
@@ -240,8 +238,10 @@ eval "$(_PLATFORMIO_COMPLETE=source platformio)"
 
 echo ".bashrc done"
 
+#export GOPATH=$HOME/go
 export GOPATH=$HOME/go
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+#export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+export PATH=$PATH:/usr/local/go/bin
 
 export PATH=$PATH:/usr/local/apache-jmeter/bin
 
@@ -270,3 +270,8 @@ alias pbcopy='xclip -selection clipboard'
 alias k=kubectl
 #kubectx and kubens
 export PATH=~/.kubectx:$PATH
+export DOCKER_HOST=tcp://0.0.0.0:2375
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/tr/.sdkman"
+[[ -s "/home/tr/.sdkman/bin/sdkman-init.sh" ]] && source "/home/tr/.sdkman/bin/sdkman-init.sh"
