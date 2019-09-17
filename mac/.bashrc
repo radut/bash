@@ -46,8 +46,8 @@ alias code="open -a /Applications/Visual\ Studio\ Code.app/"
 
 
 export GOPATH=$HOME/go
-#export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
-export PATH=$PATH:/usr/local/go/bin
+export GOROOT=/usr/local/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
 
