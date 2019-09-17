@@ -9,7 +9,7 @@ fi
 
 export JAVA_HOME=`/usr/libexec/java_home -v 11`
 export PATH=$PATH:$JAVA_HOME/bin
-
+#export PATH=$PATH:~/.local/bin
 export PATH=$PATH:/usr/local/mysql/bin
 
 export PATH=$PATH:/opt/local/Library/Frameworks/Python.framework/Versions/2.7/bin
