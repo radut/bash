@@ -2,7 +2,8 @@
 	name = Radu Toader
 	email = radu.m.toader@gmail.com
 [credential]
-	helper = store
+	helper = !aws codecommit credential-helper $@
+	UseHttpPath = true
 [alias]
     ignore = update-index --assume-unchanged
     unignore = update-index --no-assume-unchanged
@@ -64,7 +65,9 @@
 [branch]
 	autosetuprebase = always
 [core]
-	excludesfile = ~/.gitignore
+	excludesfile = /home/tr/.gitignore
+	autocrlf = true
+    pager = tr -d '\\r' | less -REX
 [mergetool "kdiff3"]
 	path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
 [status]
