@@ -67,5 +67,6 @@
 [core]
 	excludesfile = ~/.gitignore
 	autocrlf = true
+    pager = tr -d '\\r' | less -REX
 [status]
 	submoduleSummary = true
