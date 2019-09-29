@@ -187,6 +187,7 @@ function get_git_changes {
         done
 
 #        echo -ne "$REMOTE_INFO" | column -ts $'\t'
+        echo ""
         echo -ne "$REMOTE_INFO" | column -xts '|' 2>/dev/null
 
         if [ $UNTRACK -ne "0" ] || [ $MODIFIED -ne "0" ] || [ $INDEX -ne "0" ];then
@@ -210,7 +211,8 @@ function parse_git_branch {
 }
 
 #PROMPT_COMMAND='history -a;echo -en "\033[m\033[38;5;2m"$(( `sed -nu "s/MemAvailable:[\t ]\+\([0-9]\+\) kB/\1/p" /proc/meminfo`/1024))"\033[38;5;22m/"$((`sed -nu "s/MemTotal:[\t ]\+\([0-9]\+\) kB/\1/Ip" /proc/meminfo`/1024 ))MB"\t\033[m\033[38;5;55m$(cat /proc/loadavg|awk "{print \$1, \$2, \$3}")\033[m"; echo -ne "$(get_git_changes)"'
-PROMPT_COMMAND='history -a;echo -en "$(get_git_changes)"'
+PROMPT_COMMAND='history -a;echo -en "\033[38;5;46m$(cat /proc/loadavg|awk "{print \"load : \" \$1, \$2, \$3}")\033[m"; echo -ne "$(get_git_changes)"'
+#PROMPT_COMMAND='history -a;echo -en "$(get_git_changes)"'
 
 export PROMPT_COMMAND
 
