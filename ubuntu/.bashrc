@@ -159,29 +159,38 @@ function get_git_changes {
 
     UP_ARROW='\xE2\x86\x91'
     DOWN_ARROW='\xE2\x86\x93'
-    REMOTE=`git remote 2>/dev/null | head -1`
-    AHEAD=`git rev-list $REMOTE/$BRANCH..HEAD 2>/dev/null|wc -l`
-    BEHIND=`git rev-list HEAD..$REMOTE/$BRANCH 2>/dev/null|wc -l`
-    RET="\033[0m"
-
-    if [ $AHEAD -ne "0" ] ; then
-            RET="$RET\033[38;5;14m$AHEAD${UP_ARROW}\033[0m";
-    fi
-    if [ $AHEAD -ne "0" ] && [ $BEHIND -ne "0" ] ; then
-            RET="$RET \033[38;5;129m$BEHIND${DOWN_ARROW}\033[0m";
-        else
-         if [ $BEHIND -ne "0" ];then
-            RET="\033[38;5;129m$BEHIND${DOWN_ARROW}\033[0m"
-         fi;
-    fi
-
+    OK_MARK='\xE2\x9C\x94'
+    REMOTES=`git remote 2>/dev/null`
+    REMOTE_INFO="\033[0m"
 
     if [ -n "$BRANCH" ];then
-        if [ $AHEAD -ne "0" ] || [ $BEHIND -ne "0" ] ; then
-            echo -ne "\n\033[31mremote ($REMOTE/$BRANCH)\033[0m : $RET"
-        fi
+        for REMOTE in $REMOTES; do
+            REMOTE_INFO="$REMOTE_INFO\033[38;5;124mremote (\033[38;5;14m$REMOTE\033[38;5;135m/$BRANCH\033[38;5;124m)\033[0m | "
+
+            AHEAD=`git rev-list $REMOTE/$BRANCH..HEAD 2>/dev/null|wc -l`
+            BEHIND=`git rev-list HEAD..$REMOTE/$BRANCH 2>/dev/null|wc -l`
+            if [ $AHEAD -eq "0" ] && [ $BEHIND -eq "0" ];then
+              REMOTE_INFO="$REMOTE_INFO \033[38;5;46m${OK_MARK}\033[0m";
+            else
+              if [ $AHEAD -ne "0" ] ; then
+                 REMOTE_INFO="$REMOTE_INFO \033[38;5;14m$AHEAD${UP_ARROW}\033[0m";
+              fi
+              if [ $AHEAD -ne "0" ] && [ $BEHIND -ne "0" ] ; then
+                 REMOTE_INFO="$REMOTE_INFO \033[38;5;127m$BEHIND${DOWN_ARROW}\033[0m";
+              else
+                 if [ $BEHIND -ne "0" ];then
+                      REMOTE_INFO="$REMOTE_INFO \033[38;5;127m$BEHIND${DOWN_ARROW}\033[0m"
+                 fi;
+              fi
+            fi
+            REMOTE_INFO="$REMOTE_INFO\n\033[0m"
+        done
+
+#        echo -ne "$REMOTE_INFO" | column -ts $'\t'
+        echo -ne "$REMOTE_INFO" | column -xts '|' 2>/dev/null
+
         if [ $UNTRACK -ne "0" ] || [ $MODIFIED -ne "0" ] || [ $INDEX -ne "0" ];then
-            echo -ne "\n\033[38;5;129mgit status ( "
+            echo -ne "\033[38;5;129mgit status ( "
             if [ $INDEX -ne "0" ];then
                 echo -ne "$I "
             fi
@@ -200,7 +209,8 @@ function parse_git_branch {
     git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1) /'
 }
 
-PROMPT_COMMAND='history -a;echo -en "\033[m\033[38;5;2m"$(( `sed -nu "s/MemAvailable:[\t ]\+\([0-9]\+\) kB/\1/p" /proc/meminfo`/1024))"\033[38;5;22m/"$((`sed -nu "s/MemTotal:[\t ]\+\([0-9]\+\) kB/\1/Ip" /proc/meminfo`/1024 ))MB"\t\033[m\033[38;5;55m$(cat /proc/loadavg|awk "{print \$1, \$2, \$3}")\033[m"; echo -ne "$(get_git_changes)"'
+#PROMPT_COMMAND='history -a;echo -en "\033[m\033[38;5;2m"$(( `sed -nu "s/MemAvailable:[\t ]\+\([0-9]\+\) kB/\1/p" /proc/meminfo`/1024))"\033[38;5;22m/"$((`sed -nu "s/MemTotal:[\t ]\+\([0-9]\+\) kB/\1/Ip" /proc/meminfo`/1024 ))MB"\t\033[m\033[38;5;55m$(cat /proc/loadavg|awk "{print \$1, \$2, \$3}")\033[m"; echo -ne "$(get_git_changes)"'
+PROMPT_COMMAND='history -a;echo -en "$(get_git_changes)"'
 
 export PROMPT_COMMAND
 
