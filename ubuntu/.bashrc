@@ -165,7 +165,7 @@ function get_git_changes {
 
     if [ -n "$BRANCH" ];then
         for REMOTE in $REMOTES; do
-            REMOTE_INFO="$REMOTE_INFO\033[38;5;124mremote (\033[38;5;14m$REMOTE\033[38;5;135m/$BRANCH\033[38;5;124m)\033[0m | "
+            REMOTE_INFO="$REMOTE_INFO\033[38;5;14m$REMOTE|\033[38;5;135m$BRANCH | "
 
             AHEAD=`git rev-list $REMOTE/$BRANCH..HEAD 2>/dev/null|wc -l`
             BEHIND=`git rev-list HEAD..$REMOTE/$BRANCH 2>/dev/null|wc -l`
