@@ -84,6 +84,7 @@ libvpx
 libwebsockets
 libxml2
 lolcat
+lzo
 m4
 makedepend
 maven-completion

@@ -267,7 +267,7 @@ The following ports are currently installed:
   git @2.19.2_0+credential_osxkeychain+doc+pcre+perl5_26
   git @2.20.1_1+credential_osxkeychain+diff_highlight+doc+pcre+perl5_26
   git @2.21.0_2+credential_osxkeychain+diff_highlight+doc+pcre+perl5_26
-  git @2.22.0_0+credential_osxkeychain+diff_highlight+doc+pcre+perl5_26 (active)
+  git @2.22.0_0+credential_osxkeychain+diff_highlight+doc+pcre+perl5_26
   glib-networking @2.54.1_0
   glib-networking @2.60.0.1_0
   glib-networking @2.60.3_0 (active)
@@ -687,7 +687,7 @@ The following ports are currently installed:
   opensp @1.5.2_2 (active)
   openssh @7.6p1_5+kerberos5+xauth
   openssh @7.6p1_6+kerberos5+xauth
-  openssh @7.9p1_0+kerberos5+xauth (active)
+  openssh @7.9p1_0+kerberos5+xauth
   openssl @1.0.2p_0
   openssl @1.0.2q_0
   openssl @1.0.2r_0
@@ -977,7 +977,7 @@ The following ports are currently installed:
   python3_select @0.0_1 (active)
   python27 @2.7.15_1
   python27 @2.7.16_1
-  python27 @2.7.16_2 (active)
+  python27 @2.7.16_2
   python34 @3.4.9_1
   python34 @3.4.10_0 (active)
   python35 @3.5.6_1
