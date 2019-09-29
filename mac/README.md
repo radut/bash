@@ -23,6 +23,10 @@ which curl
 /usr/bin/curl
 
 
+sudo port deactivate openssh
+/opt...
+should be
+/usr/bin/ssh
 
 
 same for git !
