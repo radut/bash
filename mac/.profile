@@ -15,8 +15,8 @@ export PATH=$PATH:/usr/local/mysql/bin
 export PATH=$PATH:/opt/local/Library/Frameworks/Python.framework/Versions/2.7/bin
 
 #PROMPT_COMMAND='history -a;echo -en "\033[m\033[38;5;2m"$(memory.py)"\t\033[m\033[38;5;55m$(uptime |sed "s/.*:\(.*\)/\1/g")\033[m $(get_git_changes)"'
-#PROMPT_COMMAND='history -a;echo -en "\033[38;5;55mload: $(uptime |sed "s/.*:\(.*\)/\1/g")\033[m $(get_git_changes)"'
-PROMPT_COMMAND='history -a;echo -en "\033[m$(get_git_changes)"'
+PROMPT_COMMAND='history -a;echo -en "\033[38;5;46mload: $(uptime |sed "s/.*:\(.*\)/\1/g")\033[m $(get_git_changes)"'
+#PROMPT_COMMAND='history -a;echo -en "\033[m$(get_git_changes)"'
 export PROMPT_COMMAND
 
 # Use this other PS1 string if you want \W for root and \w for all other users:
