@@ -13,29 +13,38 @@
     
     UP_ARROW='\xE2\x86\x91'
     DOWN_ARROW='\xE2\x86\x93'
-    REMOTE=`git remote 2>/dev/null | head -1`
-    AHEAD=`git rev-list $REMOTE/$BRANCH..HEAD 2>/dev/null|gwc -l`
-    BEHIND=`git rev-list HEAD..$REMOTE/$BRANCH 2>/dev/null|gwc -l`
-    RET="\033[0m"
-
-    if [ $AHEAD -ne "0" ] ; then
-            RET="$RET\033[38;5;14m$AHEAD${UP_ARROW}\033[0m";
-    fi
-    if [ $AHEAD -ne "0" ] && [ $BEHIND -ne "0" ] ; then
-            RET="$RET \033[38;5;129m$BEHIND${DOWN_ARROW}\033[0m";
-        else 
-         if [ $BEHIND -ne "0" ];then
-            RET="\033[38;5;129m$BEHIND${DOWN_ARROW}\033[0m"
-         fi;
-    fi
-   
+    OK_MARK='\xE2\x9C\x94'
+    REMOTES=`git remote 2>/dev/null`
+    REMOTE_INFO="\033[0m"
 
     if [ -n "$BRANCH" ];then
-        if [ $AHEAD -ne "0" ] || [ $BEHIND -ne "0" ] ; then
-            echo -ne "\n\033[31mremote ($REMOTE/$BRANCH)\033[0m : $RET"
-        fi
+        for REMOTE in $REMOTES; do
+            REMOTE_INFO="$REMOTE_INFO\033[38;5;124mremote (\033[38;5;14m$REMOTE\033[38;5;135m/$BRANCH\033[38;5;124m)\033[0m | "
+
+            AHEAD=`git rev-list $REMOTE/$BRANCH..HEAD 2>/dev/null|gwc -l`
+            BEHIND=`git rev-list HEAD..$REMOTE/$BRANCH 2>/dev/null|gwc -l`
+            if [ $AHEAD -eq "0" ] && [ $BEHIND -eq "0" ];then
+              REMOTE_INFO="$REMOTE_INFO \033[38;5;46m${OK_MARK}\033[0m";
+            else
+              if [ $AHEAD -ne "0" ] ; then
+                 REMOTE_INFO="$REMOTE_INFO \033[38;5;14m$AHEAD${UP_ARROW}\033[0m";
+              fi
+              if [ $AHEAD -ne "0" ] && [ $BEHIND -ne "0" ] ; then
+                 REMOTE_INFO="$REMOTE_INFO \033[38;5;127m$BEHIND${DOWN_ARROW}\033[0m";
+              else 
+                 if [ $BEHIND -ne "0" ];then
+                      REMOTE_INFO="$REMOTE_INFO \033[38;5;127m$BEHIND${DOWN_ARROW}\033[0m"
+                 fi;
+              fi
+            fi
+            REMOTE_INFO="$REMOTE_INFO\n\033[0m"
+        done
+   
+#        echo -ne "$REMOTE_INFO" | column -ts $'\t'
+        echo -ne "$REMOTE_INFO" | column -xts '|' 2>/dev/null
+
         if [ $UNTRACK -ne "0" ] || [ $MODIFIED -ne "0" ] || [ $INDEX -ne "0" ];then
-            echo -ne "\n\033[38;5;129mgit status ( "
+            echo -ne "\033[38;5;129mgit status ( "
             if [ $INDEX -ne "0" ];then
                 echo -ne "$I "
             fi
