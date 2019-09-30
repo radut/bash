@@ -32,23 +32,6 @@ source ~/.kubectl-completion.bash
 export CURL_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
 export REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
 
-# added by Anaconda2 2019.03 installer
-# >>> conda init >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$(CONDA_REPORT_ERRORS=false '/anaconda2/bin/conda' shell.bash hook 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    \eval "$__conda_setup"
-else
-    if [ -f "/anaconda2/etc/profile.d/conda.sh" ]; then
-        . "/anaconda2/etc/profile.d/conda.sh"
-        CONDA_CHANGEPS1=false conda activate base
-    else
-        \export PATH="/anaconda2/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda init <<<
-
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/radu.toader/.sdkman"
 [[ -s "/Users/radu.toader/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/radu.toader/.sdkman/bin/sdkman-init.sh"
