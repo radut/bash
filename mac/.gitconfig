@@ -65,7 +65,7 @@
 [branch]
 	autosetuprebase = always
 [core]
-	excludesfile = /home/tr/.gitignore
+	excludesfile = ~/.gitignore
     pager = tr -d '\\r' | less -REX
 [mergetool "kdiff3"]
 	path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
