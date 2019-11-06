@@ -10,6 +10,8 @@ source ~/.profile
 
 #mac ports
 export PATH="/opt/local/bin:/opt/local/sbin:/usr/bin:/usr/sbin/:/usr/local/bin:/usr/local/sbin:$PATH"
+# brew cellar
+export PATH="/usr/local/Cellar/:$PATH"
 
 source ~/.bashrc
 
