@@ -5,6 +5,7 @@ atk
 augeas
 autoconf
 automake
+aws-iam-authenticator
 bash
 binutils
 bison
@@ -24,6 +25,7 @@ docker-machine
 docker-machine-driver-xhyve
 dos2unix
 dsh
+eksctl
 ffmpeg
 figlet
 flac
@@ -33,6 +35,7 @@ fontconfig
 freetype
 frei0r
 fribidi
+fzf
 gawk
 gd
 gdbm
@@ -61,8 +64,9 @@ intltool
 jansson
 jasper
 jpeg
+jx
+kns
 kubernetes-cli
-kubernetes-helm
 lame
 leiningen
 leptonica
@@ -107,6 +111,7 @@ m4
 make
 makedepend
 maven-completion
+minikube
 mitmproxy
 mosquitto
 mpfr
@@ -145,6 +150,7 @@ sphinx-doc
 sqlite
 stern
 stress
+tccutil
 telnet
 terminal-notifier
 tesseract

@@ -5,7 +5,7 @@ appdirs==1.4.3
 appnope==0.1.0
 arrow==0.10.0
 asn1crypto==0.24.0
-awscli==1.16.100
+awscli==1.16.296
 Babel==2.3.4
 backports-abc==0.5
 backports.shutil-get-terminal-size==1.0.0
@@ -16,7 +16,7 @@ bleach==3.1.0
 bonjour-py==0.3
 boto==2.48.0
 boto3==1.4.5
-botocore==1.5.91
+botocore==1.13.32
 bottle==0.12.13
 ceph-deploy==2.0.0
 certifi==2019.6.16
@@ -173,7 +173,7 @@ requests==2.22.0
 requestsexceptions==1.3.0
 rfc3986==1.1.0
 rsa==3.4.2
-s3transfer==0.1.10
+s3transfer==0.2.1
 scandir==1.10.0
 scipy==0.13.0b1
 segno==0.2.8

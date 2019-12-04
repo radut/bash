@@ -1,7 +1,8 @@
 The following ports are currently installed:
   a52dec @0.7.4_0 (active)
   aalib @1.4rc5_5 (active)
-  ack @3.1.1_0+perl5_26 (active)
+  ack @3.1.1_0+perl5_26
+  ack @3.1.3_0+perl5_26 (active)
   adwaita-icon-theme @3.28.0_0 (active)
   aften @0.0.8_0 (active)
   akonadi @1.13.1.20141210_5+mariadb55 (active)
@@ -16,6 +17,7 @@ The following ports are currently installed:
   attica @0.4.2_2 (active)
   audacity @2.2.2_1 (active)
   autoconf @2.69_5 (active)
+  autoconf-archive @2019.01.06_0 (active)
   autoconf213 @2.13_1 (active)
   automake @1.16.1_1 (active)
   avahi @0.7_3+gtk+gtk3+x11 (active)
@@ -190,7 +192,8 @@ The following ports are currently installed:
   httperf @0.9.0_3 (active)
   hyphen @2.8.8_0 (active)
   icon-naming-utils @0.8.90_6 (active)
-  icu @58.2_2 (active)
+  icu @58.2_2
+  icu @65.1_1 (active)
   ilmbase @2.3.0_1 (active)
   ImageMagick @6.9.9-40_6+x11 (active)
   iperf3 @3.7_0 (active)
@@ -240,7 +243,8 @@ The following ports are currently installed:
   libdvdread @6.0.1_0 (active)
   libebml @1.3.6_0 (active)
   libebur128 @1.2.4_0 (active)
-  libedit @20190324-3.1_0 (active)
+  libedit @20190324-3.1_0
+  libedit @20191025-3.1_0 (active)
   libelf @0.8.13_2 (active)
   libepoxy @1.5.3_0+python36 (active)
   libexif @0.6.21_0 (active)
@@ -314,7 +318,8 @@ The following ports are currently installed:
   libvorbis @1.3.6_0 (active)
   libvpx @1.8.1_0 (active)
   libwebsockets @3.1.0_0 (active)
-  libxml2 @2.9.9_2 (active)
+  libxml2 @2.9.9_2
+  libxml2 @2.9.10_0 (active)
   libxslt @1.1.33_1 (active)
   libyaml @0.2.2_1 (active)
   libzip @1.5.2_0 (active)
