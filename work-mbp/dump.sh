@@ -3,9 +3,3 @@ port installed | tee port.installed
 brew list | tee brew.list
 brew cask list | tee brew.cask.list
 pip freeze | tee pip.freeze
-cp ~/.vimrc .
-cp ~/.bash_profile .
-cp ~/.bashrc .
-cp ~/.profile .
-cp ~/.gitconfig .
-
