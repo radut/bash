@@ -5,7 +5,8 @@ The following ports are currently installed:
   ack @3.0.1_0+perl5_26
   ack @3.1.1_0+perl5_26
   ack @3.1.3_0+perl5_26 (active)
-  adwaita-icon-theme @3.28.0_0 (active)
+  adwaita-icon-theme @3.28.0_0
+  adwaita-icon-theme @3.34.3_0 (active)
   aften @0.0.8_0 (active)
   akonadi @1.13.1.20141210_4+mariadb55
   akonadi @1.13.1.20141210_5+mariadb55 (active)
@@ -23,6 +24,7 @@ The following ports are currently installed:
   AtomicParsley @0.9.0_1 (active)
   attica @0.4.2_2 (active)
   audacity @2.2.2_1 (active)
+  autobench @2.1.2_2 (active)
   autoconf @2.69_5 (active)
   autoconf-archive @2019.01.06_0 (active)
   autoconf213 @2.13_1 (active)
@@ -47,7 +49,8 @@ The following ports are currently installed:
   boehmgc @8.0.4_1 (active)
   boost @1.66.0_3+no_single+no_static+python27
   boost @1.66.0_4+no_single+no_static+python27
-  boost @1.71.0_0+no_single+no_static+python27 (active)
+  boost @1.71.0_0+no_single+no_static+python27
+  boost @1.71.0_1+no_single+no_static+python27 (active)
   botan @1.10.17_2
   botan @2.10.0_0
   botan @2.10.0_1 (active)
@@ -126,7 +129,8 @@ The following ports are currently installed:
   fdupes @1.6.1_0 (active)
   ffmpeg @4.1.3_0+gpl2
   ffmpeg @4.1.4_0+gpl2
-  ffmpeg @4.2.1_1+gpl2 (active)
+  ffmpeg @4.2.1_1+gpl2
+  ffmpeg @4.2.1_2+gpl2 (active)
   fftw-3 @3.3.8_0 (active)
   fftw-3-single @3.3.8_0 (active)
   findutils @4.6.0_0 (active)
@@ -200,7 +204,8 @@ The following ports are currently installed:
   gettext @0.19.8.1_1
   gettext @0.19.8.1_2 (active)
   ghostscript @9.26_0+x11
-  ghostscript @9.27_1+x11 (active)
+  ghostscript @9.27_1+x11
+  ghostscript @9.50_0+x11 (active)
   giflib @4.2.3_0+x11 (active)
   gindent @2.2.11_0
   gindent @2.2.12_0 (active)
@@ -210,7 +215,8 @@ The following ports are currently installed:
   glib2 @2.58.3_0+x11 (active)
   gmake @4.2.1_0 (active)
   gmp @6.1.2_1
-  gmp @6.1.2_3 (active)
+  gmp @6.1.2_3
+  gmp @6.1.2_4 (active)
   gnome-backgrounds @3.28.0_0 (active)
   gnome-common @3.18.0_0 (active)
   gnome-mime-data @2.18.0_3 (active)
@@ -219,7 +225,8 @@ The following ports are currently installed:
   gnupg2 @2.2.17_0+openldap+pinentry_mac (active)
   gnutls @3.6.7.1_0+doc
   gnutls @3.6.8_1+doc
-  gnutls @3.6.10_0+doc (active)
+  gnutls @3.6.10_0+doc
+  gnutls @3.6.11.1_0+doc (active)
   gobject-introspection @1.58.3_0
   gobject-introspection @1.58.3_1
   gobject-introspection @1.58.3_2 (active)
@@ -234,7 +241,8 @@ The following ports are currently installed:
   graphviz @2.40.1_2+pangocairo+x11 (active)
   grep @3.3_0 (active)
   groff @1.22.4_0
-  groff @1.22.4_1 (active)
+  groff @1.22.4_1
+  groff @1.22.4_2 (active)
   gsed @4.7_0 (active)
   gsettings-desktop-schemas @3.28.1_0 (active)
   gssdp @1.0.2_0 (active)
@@ -249,7 +257,7 @@ The following ports are currently installed:
   gtk-doc @1.30_0+python36 (active)
   gtk2 @2.24.32_0+x11 (active)
   gtk3 @3.22.30_1+x11
-  gtk3 @3.24.12_0+x11
+  gtk3 @3.24.12_0+x11 (active)
   gts @0.7.6-20121130_1 (active)
   gupnp @1.0.3_0 (active)
   gupnp-igd @0.2.5_0+python27 (active)
@@ -263,7 +271,8 @@ The following ports are currently installed:
   help2man @1.47.10_0 (active)
   hicolor-icon-theme @0.17_0 (active)
   htop @2.2.0_0 (active)
-  httperf @0.9.0_3 (active)
+  httperf @0.9.0_3
+  httperf @0.9.0_4 (active)
   httpie @1.0.2_0 (active)
   hyphen @2.8.8_0 (active)
   icon-naming-utils @0.8.90_6 (active)
@@ -282,7 +291,8 @@ The following ports are currently installed:
   itstool @2.0.6_0+python27 (active)
   jack @1.9.12_0 (active)
   jasper @2.0.14_0 (active)
-  jbig2dec @0.16_0 (active)
+  jbig2dec @0.16_0
+  jbig2dec @0.17_0 (active)
   jbigkit @2.1_0 (active)
   jpeg @9c_0 (active)
   jq @1.6_1 (active)
@@ -292,7 +302,8 @@ The following ports are currently installed:
   kdelibs4 @4.14.3_13 (active)
   kdenlive @0.9.10_3 (active)
   kdepimlibs4 @4.14.3_13 (active)
-  kerberos5 @1.17_0 (active)
+  kerberos5 @1.17_0
+  kerberos5 @1.17_2 (active)
   kfilemetadata @4.14.3_10 (active)
   lame @3.100_1 (active)
   lcms2 @2.9_1 (active)
@@ -311,7 +322,8 @@ The following ports are currently installed:
   libcddb @1.3.2_1 (active)
   libcdio @0.94_0 (active)
   libcomerr @1.44.5_0
-  libcomerr @1.45.2_0 (active)
+  libcomerr @1.45.2_0
+  libcomerr @1.45.4_0 (active)
   libconfuse @3.2.2_0 (active)
   libcroco @0.6.13_0 (active)
   libcxx @5.0.1_4 (active)
@@ -377,7 +389,8 @@ The following ports are currently installed:
   libmtp @1.1.14_0 (active)
   libnetpbm @10.85.05_0
   libnetpbm @10.86.04_0
-  libnetpbm @10.87.03_0 (active)
+  libnetpbm @10.87.03_0
+  libnetpbm @10.88.00_0 (active)
   libnice @0.1.15_0
   libnice @0.1.16_0 (active)
   libnotify @0.7.7_0 (active)
@@ -385,7 +398,8 @@ The following ports are currently installed:
   libogg @1.3.4_1 (active)
   libomp @8.0.0_0 (active)
   libopus @1.3.1_0 (active)
-  libpaper @1.1.24.5_0 (active)
+  libpaper @1.1.24.5_0
+  libpaper @1.1.28_0 (active)
   libpcap @1.9.0_0 (active)
   libpixman @0.38.0_0
   libpixman @0.38.4_0 (active)
@@ -394,7 +408,8 @@ The following ports are currently installed:
   libpsl @0.21.0-20190419_0 (active)
   libraw @0.19.2_0 (active)
   librsvg @2.44.13_0
-  librsvg @2.44.14_0 (active)
+  librsvg @2.44.14_0
+  librsvg @2.46.3_0 (active)
   libsamplerate @0.1.9_1 (active)
   libsdl @1.2.15_3+x11 (active)
   libsdl2 @2.0.9_1
@@ -412,7 +427,8 @@ The following ports are currently installed:
   libssh @0.8.7_0+kerberos5 (active)
   libssh2 @1.8.2_0 (active)
   libtasn1 @4.13_0
-  libtasn1 @4.14_0 (active)
+  libtasn1 @4.14_0
+  libtasn1 @4.15.0_0 (active)
   libtheora @1.1.1_2 (active)
   libtommath @1.0.1_0 (active)
   libtool @2.4.6_6 (active)
@@ -434,7 +450,8 @@ The following ports are currently installed:
   libxml2 @2.9.9_1
   libxml2 @2.9.9_2
   libxml2 @2.9.10_0 (active)
-  libxslt @1.1.33_1 (active)
+  libxslt @1.1.33_1
+  libxslt @1.1.34_1 (active)
   libyaml @0.2.2_1 (active)
   libzip @1.5.2_0 (active)
   libzzip @0.13.69_0 (active)
@@ -473,7 +490,8 @@ The following ports are currently installed:
   mlt @6.10.0_0+qt5 (active)
   mobipocket @4.14.3_3 (active)
   mozjs52 @52.6.0_1
-  mozjs52 @52.6.0_2 (active)
+  mozjs52 @52.6.0_2
+  mozjs52 @52.6.0_3
   mpfr @4.0.2_0 (active)
   mpg123 @1.25.10_0 (active)
   mtr @0.92_1 (active)
@@ -484,14 +502,16 @@ The following ports are currently installed:
   neon @0.30.2_0 (active)
   nepomuk-core @4.14.3_10 (active)
   netpbm @10.85.05_0+x11
-  netpbm @10.86.04_0+x11 (active)
+  netpbm @10.86.04_0+x11
+  netpbm @10.88.00_0+x11 (active)
   nettle @3.4.1_0
   nettle @3.5.1_0 (active)
   ninja @1.9.0_0 (active)
   nmap @7.70_0+pcre+ssl+subversion (active)
   nosetests_select @0.1_0 (active)
   npth @1.6_0 (active)
-  nspr @4.21_0 (active)
+  nspr @4.21_0
+  nspr @4.24_0 (active)
   nss @3.43_0
   nss @3.44.1_0 (active)
   oniguruma5 @5.9.6_p1_0 (active)
@@ -511,6 +531,7 @@ The following ports are currently installed:
   openssl @1.0.2r_0
   openssl @1.0.2s_0
   openssl @1.1.1d_0 (active)
+  openssl10 @1.0.2t_0 (active)
   opusfile @0.11_0 (active)
   orbit2 @2.14.19_2 (active)
   orc @0.4.29_0 (active)
@@ -713,7 +734,8 @@ The following ports are currently installed:
   pwgen @2.08_0 (active)
   py27-appdirs @1.4.3_0 (active)
   py27-asn1 @0.4.5_0 (active)
-  py27-asn1crypto @0.24.0_0 (active)
+  py27-asn1crypto @0.24.0_0
+  py27-asn1crypto @1.2.0_0 (active)
   py27-bcrypt @3.1.6_0
   py27-bcrypt @3.1.7_0 (active)
   py27-beaker @1.10.1_0 (active)
@@ -721,10 +743,12 @@ The following ports are currently installed:
   py27-cairo @1.18.1_0 (active)
   py27-certifi @2019.03.09_0
   py27-certifi @2019.06.16_0 (active)
-  py27-cffi @1.12.3_0 (active)
+  py27-cffi @1.12.3_0
+  py27-cffi @1.13.2_0 (active)
   py27-crypto @2.6.1_1 (active)
   py27-cryptography @2.6.1_0
-  py27-cryptography @2.7_0 (active)
+  py27-cryptography @2.7_0
+  py27-cryptography @2.8_0 (active)
   py27-cython @0.29.7_0
   py27-cython @0.29.12_0 (active)
   py27-enum34 @1.1.6_0 (active)
@@ -734,7 +758,8 @@ The following ports are currently installed:
   py27-gobject3 @3.28.3_0 (active)
   py27-httplib2 @2-0.11.3_0 (active)
   py27-idna @2.8_0 (active)
-  py27-ipaddress @1.0.22_0 (active)
+  py27-ipaddress @1.0.22_0
+  py27-ipaddress @1.0.23_0 (active)
   py27-jinja2 @2.10.1_0 (active)
   py27-libxml2 @2.9.9_0
   py27-libxml2 @2.9.10_0 (active)
@@ -755,8 +780,10 @@ The following ports are currently installed:
   py27-pygtk @2.24.0_3+x11 (active)
   py27-pynacl @1.3.0_0 (active)
   py27-setuptools @41.0.0_0
-  py27-setuptools @41.0.1_0 (active)
-  py27-six @1.12.0_0 (active)
+  py27-setuptools @41.0.1_0
+  py27-setuptools @41.6.0_0 (active)
+  py27-six @1.12.0_0
+  py27-six @1.13.0_0 (active)
   py27-yaml @3.13_0 (active)
   py36-anytree @2.6.0_0 (active)
   py36-lxml @4.3.2_0 (active)
@@ -789,8 +816,10 @@ The following ports are currently installed:
   python27 @2.7.16_2
   python27 @2.7.17_0 (active)
   python34 @3.4.10_0
-  python34 @3.4.10_1 (active)
-  python35 @3.5.7_0 (active)
+  python34 @3.4.10_1
+  python34 @3.4.10_3 (active)
+  python35 @3.5.7_0
+  python35 @3.5.9_0 (active)
   python36 @3.6.8_0
   python36 @3.6.9_0
   python36 @3.6.9_3 (active)
@@ -813,7 +842,8 @@ The following ports are currently installed:
   qt5-qtsvg @5.12.4_0 (active)
   quartz-wm @1.3.2_0 (active)
   raptor2 @2.0.15_2
-  raptor2 @2.0.15_3 (active)
+  raptor2 @2.0.15_3
+  raptor2 @2.0.15_4 (active)
   rasqal @0.9.33_0
   rasqal @0.9.33_1 (active)
   re2c @1.2.1_0 (active)
@@ -849,7 +879,8 @@ The following ports are currently installed:
   sqlite3 @3.30.0_0
   sqlite3 @3.30.1_0 (active)
   ssh-copy-id @7.9p1_0 (active)
-  strigi @0.7.8_12 (active)
+  strigi @0.7.8_12
+  strigi @0.7.8_13 (active)
   subversion @1.12.0_0
   subversion @1.12.2_0 (active)
   swig @3.0.12_2 (active)
@@ -1009,7 +1040,8 @@ The following ports are currently installed:
   wxWidgets_select @1.0_1 (active)
   x264 @20190313_0 (active)
   x265 @3.0_0
-  x265 @3.2_0 (active)
+  x265 @3.2_0
+  x265 @3.2.1_0 (active)
   xar @1.6.1_0
   xar @1.6.1_1 (active)
   xauth @1.0.10_0 (active)
@@ -1078,8 +1110,10 @@ The following ports are currently installed:
   xrender @0.9.10_1 (active)
   xset @1.2.4_0
   xset @1.2.4_1 (active)
-  XviD @1.3.5_0 (active)
+  XviD @1.3.5_0
+  XviD @1.3.6_0 (active)
   xz @5.2.4_0 (active)
+  yajl @2.1.0_0 (active)
   yasm @1.3.0_0 (active)
   yelp-tools @3.28.0_0 (active)
   yelp-xsl @3.28.0_0 (active)
