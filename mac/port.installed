@@ -99,7 +99,8 @@ The following ports are currently installed:
   dbus-python27 @1.2.8_0 (active)
   dbusmenu-qt @0.9.2_2 (active)
   dejavu-fonts @2.37_0 (active)
-  desktop-file-utils @0.23_0 (active)
+  desktop-file-utils @0.23_0
+  desktop-file-utils @0.24_0 (active)
   dia @0.97.3_4 (active)
   djvulibre @3.5.27_0 (active)
   docbook-xml @5.0_3 (active)
@@ -254,7 +255,8 @@ The following ports are currently installed:
   gstreamer010 @0.10.36_1 (active)
   gstreamer010-gst-plugins-base @0.10.36_3+gnome_vfs+ogg+x11 (active)
   gtk-doc @1.29_2+python36
-  gtk-doc @1.30_0+python36 (active)
+  gtk-doc @1.30_0+python36
+  gtk-doc @1.32_0+python36 (active)
   gtk2 @2.24.32_0+x11 (active)
   gtk3 @3.22.30_1+x11
   gtk3 @3.24.12_0+x11 (active)
@@ -491,7 +493,7 @@ The following ports are currently installed:
   mobipocket @4.14.3_3 (active)
   mozjs52 @52.6.0_1
   mozjs52 @52.6.0_2
-  mozjs52 @52.6.0_3
+  mozjs52 @52.6.0_3 (active)
   mpfr @4.0.2_0 (active)
   mpg123 @1.25.10_0 (active)
   mtr @0.92_1 (active)
@@ -785,13 +787,18 @@ The following ports are currently installed:
   py27-six @1.12.0_0
   py27-six @1.13.0_0 (active)
   py27-yaml @3.13_0 (active)
-  py36-anytree @2.6.0_0 (active)
-  py36-lxml @4.3.2_0 (active)
+  py36-anytree @2.6.0_0
+  py36-anytree @2.7.2_0 (active)
+  py36-lxml @4.3.2_0
+  py36-lxml @4.4.1_0 (active)
   py36-pygments @2.3.1_0
-  py36-pygments @2.4.2_0 (active)
+  py36-pygments @2.4.2_0
+  py36-pygments @2.5.2_0 (active)
   py36-setuptools @41.0.0_0
-  py36-setuptools @41.0.1_0 (active)
-  py36-six @1.12.0_0 (active)
+  py36-setuptools @41.0.1_0
+  py36-setuptools @41.6.0_0 (active)
+  py36-six @1.12.0_0
+  py36-six @1.13.0_0 (active)
   py37-beaker @1.11.0_0 (active)
   py37-certifi @2019.03.09_0
   py37-certifi @2019.06.16_0 (active)
