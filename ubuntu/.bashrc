@@ -286,3 +286,5 @@ export DOCKER_HOST=tcp://0.0.0.0:2375
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/tr/.sdkman"
 [[ -s "/home/tr/.sdkman/bin/sdkman-init.sh" ]] && source "/home/tr/.sdkman/bin/sdkman-init.sh"
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

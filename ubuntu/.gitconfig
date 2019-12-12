@@ -66,6 +66,7 @@
 	autosetuprebase = always
 [core]
 	excludesfile = ~/.gitignore
-    pager = tr -d '\\r' | less -REX
+    pager = tr -d '\\r' | less 
+    #-RX
 [status]
 	submoduleSummary = true
