@@ -1,0 +1,9 @@
+Host 192.168.16.72
+    User centos
+
+Host *
+    User ubuntu
+    ForwardAgent yes
+    GSSAPIAuthentication no
+    StrictHostKeyChecking no
+
