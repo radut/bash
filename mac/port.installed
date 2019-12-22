@@ -81,7 +81,7 @@ The following ports are currently installed:
   curl @7.64.1_0+ssl
   curl @7.65.1_0+ssl
   curl @7.66.0_0+ssl
-  curl @7.67.0_0+ssl (active)
+  curl @7.67.0_0+ssl
   curl-ca-bundle @7.64.1_0
   curl-ca-bundle @7.65.1_0
   curl-ca-bundle @7.66.0_1
