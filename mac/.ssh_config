@@ -1,0 +1,14 @@
+Host 192.168.16.72
+    User centos
+
+Host *
+    User ubuntu
+    ForwardAgent yes
+    GSSAPIAuthentication no
+    StrictHostKeyChecking no
+    ForwardX11Trusted yes
+    ForwardX11 yes
+
+### ssh -Y remote.Unix.system
+#xclock
+

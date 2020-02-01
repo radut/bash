@@ -46,3 +46,9 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 
 alias k=kubectl
 
+
+export PATH="$PATH:"/Applications/microchip/xc8/v2.10/bin""
+
+export PATH="$PATH:"/Applications/microchip/xc16/v1.41/bin""
+
+export PATH="$PATH:"/Applications/microchip/xc32/v2.30/bin""

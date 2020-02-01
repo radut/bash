@@ -52,3 +52,9 @@ unset __conda_setup
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/radu.toader/.sdkman"
 [[ -s "/Users/radu.toader/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/radu.toader/.sdkman/bin/sdkman-init.sh"
+
+export PATH="$PATH:"/Applications/microchip/xc8/v2.10/bin""
+
+export PATH="$PATH:"/Applications/microchip/xc16/v1.41/bin""
+
+export PATH="$PATH:"/Applications/microchip/xc32/v2.30/bin""
