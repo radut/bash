@@ -1,7 +1,7 @@
 #! /bin/bash   
 set -m
 PARALLEL=0
-MAX_PARALLEL=10
+MAX_PARALLEL=5
 for i in `ls -d ./*/` ; 
     do pushd $i;
         git up &
