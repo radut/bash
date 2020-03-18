@@ -1,14 +1,16 @@
 #! /bin/bash   
-set -m
-PARALLEL=0
 MAX_PARALLEL=5
-for i in `ls -d ./*/` ; 
-    do pushd $i;
-        git up &
-		let "PARALLEL++"
-		if [[  "$PARALLEL" -ge "$MAX_PARALLEL" ]]; then
-			fg
-		fi	
-    popd;
-done
-fg
+#set -m
+#PARALLEL=0
+#for i in `ls -d ./*/` ; 
+#    do pushd $i;
+#        git up &
+#		let "PARALLEL++"
+#		if [[  "$PARALLEL" -ge "$MAX_PARALLEL" ]]; then
+#			fg
+#		fi	
+#    popd;
+#done
+#fg
+
+ls -d */ | xargs -I{} -P ${MAX_PARALLEL} bash -c "pushd {} && git status >>/dev/null && git update && popd || popd"
