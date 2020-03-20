@@ -58,3 +58,9 @@ export PATH="$PATH:"/Applications/microchip/xc8/v2.10/bin""
 export PATH="$PATH:"/Applications/microchip/xc16/v1.41/bin""
 
 export PATH="$PATH:"/Applications/microchip/xc32/v2.30/bin""
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/radut/Downloads/google-cloud-sdk/path.bash.inc' ]; then . '/Users/radut/Downloads/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/radut/Downloads/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/radut/Downloads/google-cloud-sdk/completion.bash.inc'; fi
