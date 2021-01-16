@@ -1,1 +1,1 @@
-git commit -am "save";git push ;git remote |grep 'radut.xyz' && git push radut.xyz;git remote | grep 'bitbucket' && git push bitbucket ; git remote | grep 'github' && git push github;
+git commit -am "save";git push ;git remote |grep 'radut' && git push radut;git remote | grep 'bitbucket' && git push bitbucket ; git remote | grep 'github' && git push github;
