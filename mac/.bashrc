@@ -35,8 +35,9 @@ export EDITOR=vim
 
 export LESS=eFRX
 
-export ANDROID_HOME="/Applications/android-sdk/"
-export PATH="$PATH:$ANDROID_HOME/platform-tools/"
+#export ANDROID_HOME="/Applications/android-sdk/"
+#export PATH="$PATH:$ANDROID_HOME/platform-tools/"
+export PATH="$PATH:~/platform-tools/"
 
 export PATH=$PATH:/usr/share/pk2
 

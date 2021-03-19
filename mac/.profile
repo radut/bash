@@ -7,7 +7,7 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
     . `brew --prefix`/etc/bash_completion
 fi
 
-export JAVA_HOME=`/usr/libexec/java_home -v 11`
+export JAVA_HOME=`/usr/libexec/java_home -v 15`
 export PATH=$PATH:$JAVA_HOME/bin
 #export PATH=$PATH:~/.local/bin
 export PATH=$PATH:/usr/local/mysql/bin
@@ -35,7 +35,6 @@ export CLICOLOR=1
 #you can use this if you are using a black background:
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
-source docker.io
 
 export PATH="$PATH:$HOME/.npm-packages/bin/"
 export PATH="$PATH:$HOME/apache-maven/bin/"
@@ -44,7 +43,6 @@ export PATH="$PATH:$HOME/apache-jmeter/bin/"
 
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
-alias k=kubectl
 
 
 export PATH="$PATH:"/Applications/microchip/xc8/v2.10/bin""

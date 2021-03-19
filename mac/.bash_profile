@@ -26,7 +26,9 @@ export PATH="$PATH:"/Applications/microchip/xc8/v1.36/bin""
 # The next line enables shell command completion for gcloud.
 #if [ -f '/Users/radut/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/radut/google-cloud-sdk/completion.bash.inc'; fi
 
+source ~/docker.io
 source ~/.maven-completion.bash
+alias k=kubectl
 source ~/.kubectl-completion.bash
 
 export CURL_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
@@ -64,3 +66,12 @@ if [ -f '/Users/radut/Downloads/google-cloud-sdk/path.bash.inc' ]; then . '/User
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/radut/Downloads/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/radut/Downloads/google-cloud-sdk/completion.bash.inc'; fi
+
+##
+# Your previous /Users/radut/.bash_profile file was backed up as /Users/radut/.bash_profile.macports-saved_2020-11-20_at_01:47:38
+##
+
+# MacPorts Installer addition on 2020-11-20_at_01:47:38: adding an appropriate DISPLAY variable for use with MacPorts.
+export DISPLAY=:0
+# Finished adapting your DISPLAY environment variable for use with MacPorts.
+

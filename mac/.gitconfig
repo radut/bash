@@ -22,9 +22,7 @@
     lgt = log --graph --all --decorate --oneline --simplify-by-decoration
     lasttag = "!git describe --tags $(git rev-list --tags --max-count=1)"
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
-    blg = log --color --graph --pretty=format:'%Cred%H%Creset -%C(auto)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit	
 	llg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit --numstat 
-	bllg = log --color --graph --pretty=format:'%Cred%H%Creset -%C(auto)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit --numstat 	
     tagmerged = "!git log --tags --simplify-by-decoration --pretty='format:%Cgreen%ci%Creset %C(auto)%d%Creset' --color | sort"
     taghistory = "!git tag | while read t; do b=`git merge-base HEAD $t`; echo `git log -n 1 $b --format=%ai` $t; done | sort"
 	lls = log --color --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit --stat

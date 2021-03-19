@@ -1,11 +1,13 @@
 The following ports are currently installed:
-  a52dec @0.7.4_0 (active)
+  a52dec @0.7.4_0
+  a52dec @0.7.4_1 (active)
   aalib @1.4rc5_5 (active)
   ack @2.280.0_0+perl5_26
   ack @3.0.1_0+perl5_26
   ack @3.1.1_0+perl5_26
   ack @3.1.3_0+perl5_26
-  ack @3.3.1_0+perl5_26 (active)
+  ack @3.3.1_0+perl5_26
+  ack @3.4.0_0+perl5_26 (active)
   adwaita-icon-theme @3.28.0_0
   adwaita-icon-theme @3.34.3_0 (active)
   aften @0.0.8_0 (active)
@@ -35,7 +37,8 @@ The following ports are currently installed:
   autoconf @2.69_5 (active)
   autoconf-archive @2019.01.06_0 (active)
   autoconf213 @2.13_1 (active)
-  automake @1.16.1_1 (active)
+  automake @1.16.1_1
+  automake @1.16.3_0 (active)
   automoc @0.9.88_9 (active)
   avahi @0.7_3+gtk+gtk3+x11 (active)
   avidemux @2.6.20_8+aac+gettext+lame+sqlite+twolame+x264+x265
@@ -43,7 +46,7 @@ The following ports are currently installed:
   bash @5.0.3_0
   bash @5.0.7_0
   bash @5.0.11_0
-  bash @5.0.16_0 (active)
+  bash @5.0.16_0
   bash-completion @2.8_0
   bash-completion @2.9_0
   bash-completion @2.10_0 (active)
@@ -65,7 +68,8 @@ The following ports are currently installed:
   botan @1.10.17_2
   botan @2.10.0_0
   botan @2.10.0_1 (active)
-  brotli @1.0.7_0 (active)
+  brotli @1.0.7_0
+  brotli @1.0.9_0 (active)
   bsdmake @24_1 (active)
   bzip2 @1.0.6_0
   bzip2 @1.0.8_0 (active)
@@ -92,7 +96,8 @@ The following ports are currently installed:
   cmake @3.15.0_0
   cmake @3.15.4_0
   cmake @3.16.0_0
-  cmake @3.16.5_0 (active)
+  cmake @3.16.5_0
+  cmake @3.19.3_0 (active)
   colordiff @1.0.18_0 (active)
   convertlit @1.8_2 (active)
   coreutils @8.31_0
@@ -102,12 +107,14 @@ The following ports are currently installed:
   curl @7.65.1_0+ssl
   curl @7.66.0_0+ssl
   curl @7.67.0_0+ssl
-  curl @7.69.1_0+ssl (active)
+  curl @7.69.1_0+ssl
+  curl @7.74.0_0+ssl
   curl-ca-bundle @7.64.1_0
   curl-ca-bundle @7.65.1_0
   curl-ca-bundle @7.66.0_1
   curl-ca-bundle @7.67.0_2
-  curl-ca-bundle @7.69.1_0 (active)
+  curl-ca-bundle @7.69.1_0
+  curl-ca-bundle @7.74.0_0 (active)
   cyrus-sasl2 @2.1.27_1+kerberos
   cyrus-sasl2 @2.1.27_2+kerberos (active)
   cython_select @0.1_1 (active)
@@ -128,7 +135,8 @@ The following ports are currently installed:
   desktop-file-utils @0.24_0 (active)
   dia @0.97.3_4
   dia @0.97.3_5 (active)
-  djvulibre @3.5.27_0 (active)
+  djvulibre @3.5.27_0
+  djvulibre @3.5.28_2 (active)
   docbook-xml @5.0_3 (active)
   docbook-xml-4.1.2 @5.0_1 (active)
   docbook-xml-4.2 @5.0_1 (active)
@@ -155,7 +163,8 @@ The following ports are currently installed:
   exiv2 @0.27.2_0 (active)
   expat @2.2.6_1
   expat @2.2.7_0
-  expat @2.2.9_0 (active)
+  expat @2.2.9_0
+  expat @2.2.10_0 (active)
   faac @1.29.9.2_0 (active)
   faad2 @2.8.8_0 (active)
   fdupes @1.6.1_0 (active)
@@ -218,11 +227,13 @@ The following ports are currently installed:
   freeglut @3.0.0_0
   freeglut @3.2.1_0 (active)
   freetype @2.10.0_0
-  freetype @2.10.1_0 (active)
+  freetype @2.10.1_0
+  freetype @2.10.4_0 (active)
   frei0r-plugins @1.4_1 (active)
   fribidi @1.0.5_0
   fribidi @1.0.7_1
-  fribidi @1.0.8_0 (active)
+  fribidi @1.0.8_0
+  fribidi @1.0.10_0 (active)
   gawk @5.0.0_0
   gawk @5.0.1_0 (active)
   gcc6 @6.5.0_1
@@ -254,17 +265,19 @@ The following ports are currently installed:
   giflib @4.2.3_0+x11 (active)
   gindent @2.2.11_0
   gindent @2.2.12_0 (active)
-  git @2.25.1_0+credential_osxkeychain+diff_highlight+doc+pcre+perl5_26 (active)
+  git @2.25.1_0+credential_osxkeychain+diff_highlight+doc+pcre+perl5_26
   glib-networking @2.60.0.1_0
   glib-networking @2.60.2_0
   glib-networking @2.60.3_0 (active)
-  glib2 @2.58.3_0+x11 (active)
+  glib2 @2.58.3_0+x11
+  glib2 @2.58.3_1+x11 (active)
   gmake @4.2.1_0
   gmake @4.3_0 (active)
   gmp @6.1.2_1
   gmp @6.1.2_3
   gmp @6.1.2_4
-  gmp @6.2.0_1 (active)
+  gmp @6.2.0_1
+  gmp @6.2.1_0 (active)
   gnome-backgrounds @3.28.0_0 (active)
   gnome-common @3.18.0_0 (active)
   gnome-mime-data @2.18.0_3 (active)
@@ -277,7 +290,8 @@ The following ports are currently installed:
   gnutls @3.6.8_1+doc
   gnutls @3.6.10_0+doc
   gnutls @3.6.11.1_0+doc
-  gnutls @3.6.12_0+doc (active)
+  gnutls @3.6.12_0+doc
+  gnutls @3.6.15_0+doc (active)
   gobject-introspection @1.58.3_0
   gobject-introspection @1.58.3_1
   gobject-introspection @1.58.3_2
@@ -342,7 +356,8 @@ The following ports are currently installed:
   hyphen @2.8.8_0 (active)
   icon-naming-utils @0.8.90_6 (active)
   icu @58.2_2
-  icu @65.1_1 (active)
+  icu @65.1_1
+  icu @67.1_3 (active)
   ilmbase @2.3.0_1 (active)
   ImageMagick @6.9.9-40_5+x11
   ImageMagick @6.9.9-40_6+x11
@@ -364,7 +379,7 @@ The following ports are currently installed:
   jbig2dec @0.17_0 (active)
   jbigkit @2.1_0 (active)
   jpeg @9c_0
-  jpeg @9d_0 (active)
+  jpeg @9d_0
   jq @1.6_1 (active)
   json-glib @1.2.8_0 (active)
   kactivities @4.13.3_3 (active)
@@ -379,7 +394,8 @@ The following ports are currently installed:
   kerberos5 @1.18_0 (active)
   kfilemetadata @4.14.3_10 (active)
   lame @3.100_1 (active)
-  lcms2 @2.9_1 (active)
+  lcms2 @2.9_1
+  lcms2 @2.11_1 (active)
   ld64 @3_1+ld64_xcode
   ld64 @3_2+ld64_xcode (active)
   ld64-latest @274.2_2+llvm50
@@ -390,13 +406,11 @@ The following ports are currently installed:
   leptonica @1.78.0_0 (active)
   libarchive @3.3.3_1
   libarchive @3.4.0_1
-  libarchive @3.4.2_0 (active)
+  libarchive @3.4.2_0
+  libarchive @3.5.1_0 (active)
   libart_lgpl @2.3.21_1 (active)
-  libass @0.14.0_0 (active)
   libassuan @2.5.3_0 (active)
   libatomic_ops @7.6.10_0 (active)
-  libbluray @1.1.1_0
-  libbluray @1.1.2_0 (active)
   libcaca @0.99.beta19_6
   libcaca @0.99.beta19_7 (active)
   libcddb @1.3.2_1 (active)
@@ -436,7 +450,8 @@ The following ports are currently installed:
   libexif @0.6.21_0 (active)
   libfdk-aac @2.0.0_0
   libfdk-aac @2.0.1_0 (active)
-  libffi @3.2.1_0 (active)
+  libffi @3.2.1_0
+  libffi @3.3_1 (active)
   libgcc @1.0_0
   libgcc @2.0_1
   libgcc @2.0_2 (active)
@@ -462,7 +477,8 @@ The following ports are currently installed:
   libical @2.0.0_0
   libical @3.0.6_0 (active)
   libiconv @1.15_0
-  libiconv @1.16_0 (active)
+  libiconv @1.16_0
+  libiconv @1.16_1 (active)
   libid3tag @0.15.1b_2 (active)
   libidl @0.8.14_2 (active)
   libidn @1.35_0 (active)
@@ -471,6 +487,7 @@ The following ports are currently installed:
   libidn2 @2.3.0_0 (active)
   libiodbc @3.52.12_1+x11
   libiodbc @3.52.13_1+x11 (active)
+  libjpeg-turbo @2.0.6_0 (active)
   libksba @1.3.5_1 (active)
   libLASi @1.1.1_1
   libLASi @1.1.3_1 (active)
@@ -512,13 +529,10 @@ The following ports are currently installed:
   libpixman @0.38.4_0 (active)
   libpng @1.6.37_0 (active)
   libproxy @0.4.15_2+python27 (active)
-  libpsl @0.21.0-20190419_0 (active)
+  libpsl @0.21.0-20190419_0
+  libpsl @0.21.1-20200817_0 (active)
   libraw @0.19.2_0
   libraw @0.19.5_1 (active)
-  librsvg @2.44.13_0
-  librsvg @2.44.14_0
-  librsvg @2.46.3_0
-  librsvg @2.46.4_0 (active)
   libsamplerate @0.1.9_1 (active)
   libsdl @1.2.15_3+x11 (active)
   libsdl2 @2.0.9_1
@@ -545,9 +559,12 @@ The following ports are currently installed:
   libtasn1 @4.14_0
   libtasn1 @4.15.0_0
   libtasn1 @4.16.0_0 (active)
-  libtheora @1.1.1_2 (active)
+  libtheora @1.1.1_2
+  libtheora @1.1.1_3 (active)
   libtommath @1.0.1_0 (active)
-  libtool @2.4.6_6 (active)
+  libtool @2.4.6_6
+  libtool @2.4.6_10
+  libtool @2.4.6_11 (active)
   libunistring @0.9.10_0 (active)
   libunwind-headers @5.0.1_0 (active)
   libupnp @1.8.3_0 (active)
@@ -562,16 +579,21 @@ The following ports are currently installed:
   libuv @1.30.1_0
   libuv @1.32.0_0
   libuv @1.34.0_0
-  libuv @1.35.0_0 (active)
-  libvorbis @1.3.6_0 (active)
+  libuv @1.35.0_0
+  libuv @1.40.0_0 (active)
+  libvorbis @1.3.6_0
+  libvorbis @1.3.7_0 (active)
   libvpx @1.8.0_0
   libvpx @1.8.1_0
-  libvpx @1.8.2_0 (active)
+  libvpx @1.8.2_0
+  libvpx @1.9.0_0 (active)
   libxml2 @2.9.9_1
   libxml2 @2.9.9_2
-  libxml2 @2.9.10_0 (active)
+  libxml2 @2.9.10_0
+  libxml2 @2.9.10_1 (active)
   libxslt @1.1.33_1
-  libxslt @1.1.34_1 (active)
+  libxslt @1.1.34_1
+  libxslt @1.1.34_4 (active)
   libyaml @0.2.2_1 (active)
   libzip @1.5.2_0
   libzip @1.6.1_0 (active)
@@ -595,7 +617,8 @@ The following ports are currently installed:
   lua52 @5.2.4_2 (active)
   lz4 @1.9.0_0
   lz4 @1.9.1_0
-  lz4 @1.9.2_0 (active)
+  lz4 @1.9.2_0
+  lz4 @1.9.3_0 (active)
   lzip @1.21_0 (active)
   lzo2 @2.10_0 (active)
   m4 @1.4.18_2 (active)
@@ -633,7 +656,8 @@ The following ports are currently installed:
   nasm @2.14.02_0 (active)
   ncdu @1.14_0 (active)
   ncurses @6.1_0
-  ncurses @6.2_0 (active)
+  ncurses @6.2_0
+  ncurses @6.2_1 (active)
   neon @0.30.2_0
   neon @0.30.2_1 (active)
   nepomuk-core @4.14.3_10 (active)
@@ -642,7 +666,8 @@ The following ports are currently installed:
   netpbm @10.88.00_0+x11
   netpbm @10.89.01_0+x11 (active)
   nettle @3.4.1_0
-  nettle @3.5.1_0 (active)
+  nettle @3.5.1_0
+  nettle @3.6_0 (active)
   ninja @1.9.0_0
   ninja @1.10.0_0 (active)
   nmap @7.70_0+pcre+ssl+subversion
@@ -666,6 +691,7 @@ The following ports are currently installed:
   openjdk11 @11.0.4_0
   openjdk11 @11.0.6_0 (active)
   openjdk12 @12.0.2_0 (active)
+  openjdk15 @15.0.2_0 (active)
   openjpeg @2.3.1_0 (active)
   openjpeg15 @1.5.2_0 (active)
   openldap @2.4.47_0
@@ -675,7 +701,8 @@ The following ports are currently installed:
   opensp @1.5.2_2 (active)
   openssl @1.0.2r_0
   openssl @1.0.2s_0
-  openssl @1.1.1d_0 (active)
+  openssl @1.1.1d_0
+  openssl @1.1.1i_0 (active)
   openssl10 @1.0.2t_0
   openssl10 @1.0.2u_0 (active)
   opusfile @0.11_0
@@ -711,7 +738,8 @@ The following ports are currently installed:
   p5.26-file-next @1.160.0_0
   p5.26-file-next @1.180.0_0 (active)
   p5.26-getopt-long @2.500.0_0
-  p5.26-getopt-long @2.510.0_0 (active)
+  p5.26-getopt-long @2.510.0_0
+  p5.26-getopt-long @2.520.0_0 (active)
   p5.26-gssapi @0.280.0_3 (active)
   p5.26-html-form @6.40.0_0
   p5.26-html-form @6.70.0_0 (active)
@@ -783,7 +811,8 @@ The following ports are currently installed:
   p5.26-timedate @2.320.0_0 (active)
   p5.26-try-tiny @0.300.0_0 (active)
   p5.26-uri @1.760.0_0 (active)
-  p5.26-version @0.992.400_0 (active)
+  p5.26-version @0.992.400_0
+  p5.26-version @0.992.800_0 (active)
   p5.26-www-robotrules @6.20.0_1 (active)
   p5.26-xml-namespacesupport @1.120.0_0 (active)
   p5.26-xml-parser @2.440.0_0
@@ -886,14 +915,17 @@ The following ports are currently installed:
   p11-kit @0.23.15_0
   p11-kit @0.23.16.1_0
   p11-kit @0.23.18.1_0
-  p11-kit @0.23.20_0 (active)
+  p11-kit @0.23.20_0
+  p11-kit @0.23.21_0 (active)
   pango @1.42.4_0+quartz+x11
   pango @1.42.4_1+quartz+x11 (active)
   pcre @8.43_0
-  pcre @8.44_0 (active)
+  pcre @8.44_0
+  pcre @8.44_1 (active)
   pcre2 @10.33_0
   pcre2 @10.34_0 (active)
-  perl5 @5.26.1_0+perl5_26 (active)
+  perl5 @5.26.1_0+perl5_26
+  perl5 @5.28.3_0+perl5_26 (active)
   perl5.22 @5.22.4_3
   perl5.22 @5.22.4_5 (active)
   perl5.24 @5.24.4_2
@@ -901,7 +933,9 @@ The following ports are currently installed:
   perl5.26 @5.26.3_2
   perl5.26 @5.26.3_4 (active)
   perl5.28 @5.28.2_0
-  perl5.28 @5.28.2_2 (active)
+  perl5.28 @5.28.2_2
+  perl5.28 @5.28.3_1 (active)
+  perl5.30 @5.30.3_0 (active)
   pgf @3.1.1_0
   pgf @3.1.3_0
   pgf @3.1.5b_0 (active)
@@ -1098,7 +1132,8 @@ The following ports are currently installed:
   rasqal @0.9.33_1 (active)
   re2c @1.2.1_0
   re2c @1.3_0 (active)
-  readline @8.0.000_0 (active)
+  readline @8.0.000_0
+  readline @8.1.000_0 (active)
   redland @1.0.17_0+db48
   redland @1.0.17_1+db48 (active)
   rexx @3.9.1_1 (active)
@@ -1252,7 +1287,8 @@ The following ports are currently installed:
   tesseract-vie @4.0.0_0 (active)
   tesseract-yid @4.0.0_0 (active)
   texinfo @6.6_0
-  texinfo @6.7_0 (active)
+  texinfo @6.7_0
+  texinfo @6.7_1 (active)
   texlive-basic @47434_0+doc
   texlive-basic @50893_0+doc (active)
   texlive-bin @2018.47642_8+x11
@@ -1274,7 +1310,8 @@ The following ports are currently installed:
   texlive-pictures @50872_0+doc (active)
   THE @3.2_1 (active)
   tiff @4.0.10_1
-  tiff @4.1.0_0 (active)
+  tiff @4.1.0_0
+  tiff @4.2.0_1 (active)
   tradcpp @0.5.3_0 (active)
   tree @1.8.0_0 (active)
   twolame @0.3.13_1
@@ -1303,7 +1340,7 @@ The following ports are currently installed:
   webp @1.0.3_0 (active)
   wget @1.20.3_0+gnutls
   wget @1.20.3_1+gnutls
-  wget @1.20.3_2+gnutls (active)
+  wget @1.20.3_2+gnutls
   winetricks @20190310_0
   winetricks @20190615_0
   winetricks @20191224_0+zenity (active)
@@ -1397,7 +1434,8 @@ The following ports are currently installed:
   XviD @1.3.5_0
   XviD @1.3.6_0
   XviD @1.3.7_0 (active)
-  xz @5.2.4_0 (active)
+  xz @5.2.4_0
+  xz @5.2.5_0 (active)
   yajl @2.1.0_0 (active)
   yasm @1.3.0_0 (active)
   yelp-tools @3.28.0_0
@@ -1413,4 +1451,5 @@ The following ports are currently installed:
   zstd @1.4.0_0
   zstd @1.4.1_0
   zstd @1.4.3_0
-  zstd @1.4.4_0 (active)
+  zstd @1.4.4_0
+  zstd @1.4.8_0 (active)
