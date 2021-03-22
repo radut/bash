@@ -21,11 +21,18 @@ fi
 
 alias k=kubectl
 
-#source <(kubectl completion bash)
-#source <(kubectl completion bash | sed 's/kubectl/k/g')
+####  # First, add the new shell to the list of allowed shells.
+#### sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
+####  # Change to the new shell.
+#### chsh -s /usr/local/bin/bash 
+#### echo $BASH_VERSION
 
-source /dev/stdin <<<"$(kubectl completion bash)"
-source /dev/stdin <<<"$(kubectl completion bash | sed 's/kubectl/k/g')"
+
+source <(kubectl completion bash)
+source <(kubectl completion bash | sed 's/kubectl/k/g')
+
+#source /dev/stdin <<<"$(kubectl completion bash)"
+#source /dev/stdin <<<"$(kubectl completion bash | sed 's/kubectl/k/g')"
 
 
 ## kubectl completion bash | sed 's/kubectl/k/g' | > $(brew --prefix)/etc/bash_completion.d/k
