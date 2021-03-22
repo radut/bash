@@ -13,6 +13,34 @@ export PATH="/opt/local/bin:/opt/local/sbin:/usr/bin:/usr/sbin/:/usr/local/bin:/
 
 source ~/.bashrc
 
+
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    . $(brew --prefix)/etc/bash_completion
+fi
+
+
+alias k=kubectl
+
+#source <(kubectl completion bash)
+#source <(kubectl completion bash | sed 's/kubectl/k/g')
+
+source /dev/stdin <<<"$(kubectl completion bash)"
+source /dev/stdin <<<"$(kubectl completion bash | sed 's/kubectl/k/g')"
+
+
+## kubectl completion bash | sed 's/kubectl/k/g' | > $(brew --prefix)/etc/bash_completion.d/k
+## kubectl completion bash > $(brew --prefix)/etc/bash_completion.d/kubectl
+
+
+
+#if [ -f $(brew --prefix)/bash_completion.d/kubectl ]; then
+#. $(brew --prefix)/bash_completion.d/kubectl
+#fi
+
+#if [ -f $(brew --prefix)/bash_completion.d/k ]; then
+#. $(brew --prefix)/bash_completion.d/k
+#fi
+
 source ~/.git-completion.bash
 
 export PATH="$PATH:"/Applications/microchip/xc16/v1.26/bin""
@@ -28,8 +56,7 @@ export PATH="$PATH:"/Applications/microchip/xc8/v1.36/bin""
 
 source ~/docker.io
 source ~/.maven-completion.bash
-alias k=kubectl
-source ~/.kubectl-completion.bash
+
 
 export CURL_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
 export REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt

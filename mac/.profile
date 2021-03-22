@@ -1,13 +1,8 @@
 echo "load .profile"
-if [ -f /opt/local/etc/bash_completion ]; then
-    . /opt/local/etc/bash_completion
-fi
-
-if [ -f `brew --prefix`/etc/bash_completion ]; then
-    . `brew --prefix`/etc/bash_completion
-fi
 
 export JAVA_HOME=`/usr/libexec/java_home -v 15`
+#export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+#export JAVA_HOME=`/usr/libexec/java_home -v 11`
 export PATH=$PATH:$JAVA_HOME/bin
 #export PATH=$PATH:~/.local/bin
 export PATH=$PATH:/usr/local/mysql/bin
@@ -24,9 +19,6 @@ PS1="$(if [[ ${EUID} == 0 ]]; then echo -ne '\[\033[01;31m\]\n\h\[\033[01;34m\] 
 #PS1="$(if [[ ${EUID} == 0 ]]; then echo -ne '\[\033[01;31m\]\h\[\033[01;34m\] \w'; else echo -ne '\[\033[01;32m\]\u@\h\[\033[01;34m\] \w'; fi) \$([[ \$? -ne 0 ]] && echo -ne \"\[\033[01;31m\]:(\[\033[01;34m\] \")\[\033[1;31m\]\$(parse_git_branch)\[\033[01;34m\]\\$ \[\033[00m\]"
 
 export PS1
-
-#source .pm2completion
-
 
 export LESS="-X"
 export CLICOLOR=1
