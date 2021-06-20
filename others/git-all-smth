@@ -1,0 +1,8 @@
+#/bin/bash
+find . -type d -name .git | sed 's|/.git||g' | grep -v '^.$' | while read line ;
+do pushd $line;
+
+    $@
+
+popd;
+done
